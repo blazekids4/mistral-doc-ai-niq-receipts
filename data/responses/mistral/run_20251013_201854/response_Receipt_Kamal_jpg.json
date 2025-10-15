@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "images": [],
+      "markdown": "# Kaufland\n\nKaufland Marschstra\u00dfe 1 25746 Heide Tel. 0481/78760890 DE815524442\n\nPreis EUR\n\n|  |   |\n| --- | --- |\n|  Freizeit, Lernen, Mobilitaet |   |\n|  TS.Zeichenblock A3 | 1,89 A  |\n|  Mopro / Kaese / Eier |   |\n|  Eier Freilandhalt. | 1,69 B  |\n|  Nahrungsmittel |   |\n|  KLC M\u00fcsliriegel | 0,99 B  |\n|  KLC M\u00fcsliriegel | 0,99 B  |\n|  Sonnenblumenkerne |   |\n|  2 * 1,29 | 2,58 B  |\n|  Nebengeschaeft |   |\n|  Leergut Getr\u00e4nke | -6,00 A  |\n|  Obst / Gemuese / Pflanzen |   |\n|  Trauben 500g hell | 2,29 B  |\n|  Datteltomaten 250g | 1,19 B  |\n|  Suesswaren |   |\n|  Treets Peanut But. |   |\n|  2 * 1,49 | 2,98 B  |\n|  Gebr.K\u00fcrbiskerne | 2,79 B  |\n|  Verpackte Backwaren |   |\n|  Weltmeisterbrot | 1,09 B  |\n|  KLC.Vollkorntoast | 0,89 B  |\n|  Wurst SB / Fisch / Feinkost |   |\n|  KLC.Bacon Scheiben |   |\n|  2 * 1,19 | 2,38 B  |\n|  KLC.Salami | 1,39 B  |\n|  K.Bierschinken | 0,89 B  |\n|  K.Jagdwurst | 0,99 B  |\n|  KLC.Bacon Streifen | 2,79 B  |\n|  MSC Brot.Seelachs | 1,19 B  |\n|  Brotauf.Ei/Bacon |   |\n|  2 * 1,19 | 2,38 B  |\n|  KLC.Kasseler | 1,19 B  |\n|  Summe | 26,37  |\n|  Kartenzahlung | 26,37  |\n|  R\u00fcckgeld | 0,00  |",
+      "dimensions": {
+        "dpi": 200,
+        "height": 4032,
+        "width": 3024
+      }
+    }
+  ],
+  "model": "mistral-document-ai-2505",
+  "document_annotation": null,
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 1532846,
+    "pages_processed_annotation": 0
+  },
+  "content_filter_results": null
+}

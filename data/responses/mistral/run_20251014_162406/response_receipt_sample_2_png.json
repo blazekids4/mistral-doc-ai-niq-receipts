@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "images": [],
+      "markdown": "2,15 2\n\n#5410076541553 3,49 6,98 2\n\nSwiffer SM NF 9er 4,99 1\n\nANZ. ARTIKEL 9\n\nSumme 40,92\n\nVISA EUR 40,92\n\nK-U-N-D-E-N-B-E-L-E-G-\n\nTerminal-ID : 66078359\n\nTA-Nr 069417 BNr 9384\n\nKartenzahlung Visa kontaktlos Visa\n\nEUR 40,92\n\nPAN ############6494\n\nKarte 0 ############6494\n\nEMV-AID A0000000031010\n\nVU-Nr 4556799958\n\nGenehmigungs-Nr 816069\n\nDatum 16.08.24 12:31 Uhr\n\nEMV-Daten 0000000000/0000///BBE563A2/80\n\nAutorisierung erfolgt\n\nAS-Proc-Code = 00 075 00\n\nCapt.-Ref. = 0000\n\nAPPROVED\n\nBITTE BELEG AUFBEWAHREN\n\n|  UST | Netto | Steuer | Brutto  |\n| --- | --- | --- | --- |\n|  2 = 7% | 13,97 | 0,98 | 14,95  |\n|  1 = 19% | 21,82 | 4,15 | 25,97  |\n\nTSE S/N: E5BE40277BCF2A08691CD4E81498433 0C64E01080F1557B8A4571350164E171A TSE Transaktions-Nummer: 102036 TSE Start: 2024-08-16T12:31:08+02:00 TSE Ende: 2024-08-16T12:31:49+02:00 TSE Signatur Zahler: 517801 TSE Signatur: 4244D9B1C71316AF51290FEC 57EFCCAAA001B61042778F847F6618A5E2045644 97EA9ED7326DC9ED8D7A888DD9A7659C31B5B517 E04F234FECB92F820C8C0C515E00DE9D200AB1C7 BC1E9B54F244E9128ACEED52884F6C320F6FD82B FOFBAE10 POS S/N: 000000001750293852 53R0721586\n\nTbre PAYBACK Kartennr: XXXXXXXXXX1232\n\nTbre Einkauf: 3277",
+      "dimensions": {
+        "dpi": 200,
+        "height": 800,
+        "width": 600
+      }
+    }
+  ],
+  "model": "mistral-document-ai-2505",
+  "document_annotation": null,
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 80183,
+    "pages_processed_annotation": 0
+  },
+  "content_filter_results": null
+}

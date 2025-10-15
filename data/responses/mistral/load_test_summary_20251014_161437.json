@@ -1,0 +1,15 @@
+{
+  "count": 50,
+  "min_ms": 731.34,
+  "max_ms": 3083.88,
+  "mean_ms": 1003.95,
+  "median_ms": 942.42,
+  "p50_ms": 939.98,
+  "p90_ms": 1249.56,
+  "p95_ms": 1321.46,
+  "p99_ms": 3083.88,
+  "stdev_ms": 340.67,
+  "total_iterations": 50,
+  "successful_calls": 50,
+  "failed_calls": 0
+}

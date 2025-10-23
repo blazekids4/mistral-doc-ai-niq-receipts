@@ -1,0 +1,90 @@
+{
+  "source": "direct_extraction",
+  "merchant_name": "Globus",
+  "transaction_date": "2023-08-24",
+  "transaction_time": "12:31",
+  "total_amount": 40.92,
+  "currency": "EUR",
+  "items": [
+    {
+      "description": "Zeitschriften",
+      "price": 1.3
+    },
+    {
+      "description": "Microfaser Colors 14",
+      "price": 2.99
+    },
+    {
+      "description": "Fruchtquark 500 g",
+      "price": 2.29
+    },
+    {
+      "description": "Ersatzkopf",
+      "price": 10.99
+    },
+    {
+      "description": "Erdnusslocken 150g",
+      "price": 1.99
+    },
+    {
+      "description": "Erdnusslocken 150g",
+      "price": 2.19
+    },
+    {
+      "description": "Cadbury Dairy Milk",
+      "price": 3.49
+    },
+    {
+      "description": "Swiffer 5M NF 3er",
+      "price": 4.91
+    }
+  ],
+  "raw_response": {
+    "model": "gpt-4o",
+    "response": "```json\n{\n  \"merchant_name\": \"Globus\",\n  \"transaction_date\": \"2023-08-24\",\n  \"transaction_time\": \"12:31\",\n  \"total_amount\": 40.92,\n  \"currency\": \"EUR\",\n  \"items\": [\n    {\n      \"description\": \"Zeitschriften\",\n      \"price\": 1.30\n    },\n    {\n      \"description\": \"Microfaser Colors 14\",\n      \"price\": 2.99\n    },\n    {\n      \"description\": \"Fruchtquark 500 g\",\n      \"price\": 2.29\n    },\n    {\n      \"description\": \"Ersatzkopf\",\n      \"price\": 10.99\n    },\n    {\n      \"description\": \"Erdnusslocken 150g\",\n      \"price\": 1.99\n    },\n    {\n      \"description\": \"Erdnusslocken 150g\",\n      \"price\": 2.19\n    },\n    {\n      \"description\": \"Cadbury Dairy Milk\",\n      \"price\": 3.49\n    },\n    {\n      \"description\": \"Swiffer 5M NF 3er\",\n      \"price\": 4.91\n    }\n  ],\n  \"confidence_level\": 0.95\n}\n```",
+    "extraction": {
+      "merchant_name": "Globus",
+      "transaction_date": "2023-08-24",
+      "transaction_time": "12:31",
+      "total_amount": 40.92,
+      "currency": "EUR",
+      "items": [
+        {
+          "description": "Zeitschriften",
+          "price": 1.3
+        },
+        {
+          "description": "Microfaser Colors 14",
+          "price": 2.99
+        },
+        {
+          "description": "Fruchtquark 500 g",
+          "price": 2.29
+        },
+        {
+          "description": "Ersatzkopf",
+          "price": 10.99
+        },
+        {
+          "description": "Erdnusslocken 150g",
+          "price": 1.99
+        },
+        {
+          "description": "Erdnusslocken 150g",
+          "price": 2.19
+        },
+        {
+          "description": "Cadbury Dairy Milk",
+          "price": 3.49
+        },
+        {
+          "description": "Swiffer 5M NF 3er",
+          "price": 4.91
+        }
+      ],
+      "confidence_level": 0.95
+    }
+  },
+  "confidence_score": 0.95,
+  "blob_name": "multi-capture/receipt_sample_1.png"
+}

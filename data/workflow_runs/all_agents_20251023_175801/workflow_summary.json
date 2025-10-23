@@ -1,0 +1,40 @@
+{
+  "total": 4,
+  "successful": 4,
+  "failed": 0,
+  "run_id": "all_agents_20251023_175801",
+  "mode": "all_agents",
+  "timestamp": "2025-10-23T17:58:07.202339",
+  "results": [
+    {
+      "blob_name": "multi-capture/414957_1.png",
+      "status": "success",
+      "output": "Receipt processing complete. Results saved to:\n- multi-capture_414957_1_png.json\n- multi-capture_414957_1_png.md",
+      "duration_seconds": 76.946972
+    },
+    {
+      "blob_name": "multi-capture/receipt_sample_1.png",
+      "status": "success",
+      "output": "Receipt processing complete. Results saved to:\n- multi-capture_receipt_sample_1_png.json\n- multi-capture_receipt_sample_1_png.md",
+      "duration_seconds": 98.182178
+    },
+    {
+      "blob_name": "multi-capture/receipt_sample_2.png",
+      "status": "success",
+      "output": "Receipt processing complete. Results saved to:\n- multi-capture_receipt_sample_2_png.json\n- multi-capture_receipt_sample_2_png.md",
+      "duration_seconds": 47.697646
+    },
+    {
+      "blob_name": "multi-capture/receipt_sample_3.png",
+      "status": "success",
+      "output": "Receipt processing complete. Results saved to:\n- multi-capture_receipt_sample_3_png.json\n- multi-capture_receipt_sample_3_png.md",
+      "duration_seconds": 41.293963
+    }
+  ],
+  "timing": {
+    "start_time": "2025-10-23T17:58:07.202339",
+    "end_time": "2025-10-23T18:02:31.338141",
+    "total_duration_seconds": 264.14,
+    "average_per_receipt_seconds": 66.03
+  }
+}

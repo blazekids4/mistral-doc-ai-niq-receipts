@@ -1,0 +1,42 @@
+{
+  "source": "direct_extraction",
+  "merchant_name": "Globus",
+  "transaction_date": "2024-08-16",
+  "transaction_time": "12:31",
+  "total_amount": 25.97,
+  "currency": "EUR",
+  "items": [
+    {
+      "description": "Item 1 (7% VAT)",
+      "price": 14.95
+    },
+    {
+      "description": "Item 2 (19% VAT)",
+      "price": 25.97
+    }
+  ],
+  "raw_response": {
+    "model": "gpt-4o",
+    "response": "```json\n{\n  \"merchant_name\": \"Globus\",\n  \"transaction_date\": \"2024-08-16\",\n  \"transaction_time\": \"12:31\",\n  \"total_amount\": 25.97,\n  \"currency\": \"EUR\",\n  \"items\": [\n    {\n      \"description\": \"Item 1 (7% VAT)\",\n      \"price\": 14.95\n    },\n    {\n      \"description\": \"Item 2 (19% VAT)\",\n      \"price\": 25.97\n    }\n  ],\n  \"confidence_level\": 0.95\n}\n```",
+    "extraction": {
+      "merchant_name": "Globus",
+      "transaction_date": "2024-08-16",
+      "transaction_time": "12:31",
+      "total_amount": 25.97,
+      "currency": "EUR",
+      "items": [
+        {
+          "description": "Item 1 (7% VAT)",
+          "price": 14.95
+        },
+        {
+          "description": "Item 2 (19% VAT)",
+          "price": 25.97
+        }
+      ],
+      "confidence_level": 0.95
+    }
+  },
+  "confidence_score": 0.95,
+  "blob_name": "multi-capture/receipt_sample_3.png"
+}

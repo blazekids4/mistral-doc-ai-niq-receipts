@@ -3,9 +3,11 @@ import os
 import json
 import datetime
 from dotenv import load_dotenv
-from storage_utils import get_all_blobs_with_prefix, get_blob_base64
+from storage_utils import get_container_blobs, get_blob_base64
 
-def process_document(base64_image, api_key, project_endpoint=None, content_type="image/jpeg"):
+load_dotenv()
+
+def process_document(base64_image, api_key, content_type="image/jpeg"):
     """Process a document using Mistral Document AI"""
     # Use the correct working endpoint for Mistral Document AI
     url = "https://foundry-eastus2-niq.services.ai.azure.com/providers/mistral/azure/ocr"
@@ -81,7 +83,7 @@ def main():
     
     # Get all blobs with the specified prefix
     try:
-        blob_names = get_all_blobs_with_prefix()
+        blob_names = get_container_blobs()
         print(f"Found {len(blob_names)} documents to process")
         
         # Keep track of successful and failed documents
@@ -110,7 +112,7 @@ def main():
             print(f"File type detected: {content_type} (data length: {len(base64_image)} bytes)")
             
             # Process the document
-            status_code, response_data = process_document(base64_image, api_key, project_endpoint, content_type)
+            status_code, response_data = process_document(base64_image, api_key, content_type)
             
             print(f"Status Code: {status_code}")
             

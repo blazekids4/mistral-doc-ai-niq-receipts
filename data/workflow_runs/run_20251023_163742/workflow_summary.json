@@ -1,0 +1,33 @@
+{
+  "total": 3,
+  "successful": 3,
+  "failed": 0,
+  "run_id": "run_20251023_163742",
+  "timestamp": "2025-10-23T16:37:52.659215",
+  "results": [
+    {
+      "blob_name": "multi-capture/414957_1.png",
+      "status": "success",
+      "output": "Receipt processing complete. Results saved to:\n- multi-capture_414957_1_png.json\n- multi-capture_414957_1_png.md",
+      "duration_seconds": 56.821903
+    },
+    {
+      "blob_name": "multi-capture/receipt_sample_1.png",
+      "status": "success",
+      "output": "Receipt processing complete. Results saved to:\n- multi-capture_receipt_sample_1_png.json\n- multi-capture_receipt_sample_1_png.md",
+      "duration_seconds": 128.650068
+    },
+    {
+      "blob_name": "multi-capture/receipt_sample_2.png",
+      "status": "success",
+      "output": "Receipt processing complete. Results saved to:\n- multi-capture_receipt_sample_2_png.json\n- multi-capture_receipt_sample_2_png.md",
+      "duration_seconds": 46.221992
+    }
+  ],
+  "timing": {
+    "start_time": "2025-10-23T16:37:52.659215",
+    "end_time": "2025-10-23T16:41:44.357766",
+    "total_duration_seconds": 231.7,
+    "average_per_receipt_seconds": 77.23
+  }
+}

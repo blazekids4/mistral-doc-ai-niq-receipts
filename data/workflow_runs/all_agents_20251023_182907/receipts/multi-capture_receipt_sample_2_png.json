@@ -1,0 +1,58 @@
+{
+  "merchant_name": "Unknown",
+  "transaction_date": "2024-08-16",
+  "transaction_time": "12:31",
+  "total_amount": 40.92,
+  "currency": "EUR",
+  "items": [
+    {
+      "description": "Cadbury Dairy Milk 1",
+      "price": 3.49
+    },
+    {
+      "description": "Swiffer SM NF 9er",
+      "price": 4.99
+    }
+  ],
+  "metadata": {
+    "processing_timestamp": "2025-10-23T18:32:53.749672",
+    "confidence_score": 0.95,
+    "completeness_score": 1.6,
+    "aggregation_score": 1.4149999999999998,
+    "best_source": "direct_extraction",
+    "source_scores": {
+      "direct_extraction": 1.4149999999999998,
+      "document_intelligence": 1.3766999999999998,
+      "mistral": 0.275
+    },
+    "field_sources": {
+      "merchant_name": null,
+      "transaction_date": "direct_extraction",
+      "transaction_time": "direct_extraction",
+      "total_amount": "direct_extraction",
+      "currency": "direct_extraction"
+    },
+    "item_sources": [
+      {
+        "description": "Cadbury Dairy Milk 1",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Swiffer SM NF 9er",
+        "source": "direct_extraction"
+      }
+    ]
+  },
+  "sources_used": [
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction"
+  ],
+  "blob_name": "multi-capture/receipt_sample_2.png"
+}

@@ -1,0 +1,50 @@
+{
+  "source": "direct_extraction",
+  "merchant_name": "KUNDEN-BELE",
+  "transaction_date": "2024-08-16",
+  "transaction_time": "12:31",
+  "total_amount": 40.92,
+  "currency": "EUR",
+  "items": [
+    {
+      "description": "Dairy Milk 1",
+      "price": 3.49
+    },
+    {
+      "description": "Dairy Milk 1",
+      "price": 3.49
+    },
+    {
+      "description": "Swiffer SM NF 9er",
+      "price": 4.99
+    }
+  ],
+  "raw_response": {
+    "model": "gpt-4o",
+    "response": "```json\n{\n  \"merchant_name\": \"KUNDEN-BELE\",\n  \"transaction_date\": \"2024-08-16\",\n  \"transaction_time\": \"12:31\",\n  \"total_amount\": 40.92,\n  \"currency\": \"EUR\",\n  \"items\": [\n    {\n      \"description\": \"Dairy Milk 1\",\n      \"price\": 3.49\n    },\n    {\n      \"description\": \"Dairy Milk 1\",\n      \"price\": 3.49\n    },\n    {\n      \"description\": \"Swiffer SM NF 9er\",\n      \"price\": 4.99\n    }\n  ],\n  \"confidence_level\": 0.95\n}\n```",
+    "extraction": {
+      "merchant_name": "KUNDEN-BELE",
+      "transaction_date": "2024-08-16",
+      "transaction_time": "12:31",
+      "total_amount": 40.92,
+      "currency": "EUR",
+      "items": [
+        {
+          "description": "Dairy Milk 1",
+          "price": 3.49
+        },
+        {
+          "description": "Dairy Milk 1",
+          "price": 3.49
+        },
+        {
+          "description": "Swiffer SM NF 9er",
+          "price": 4.99
+        }
+      ],
+      "confidence_level": 0.95
+    }
+  },
+  "confidence_score": 0.95,
+  "blob_name": "multi-capture/receipt_sample_2.png"
+}

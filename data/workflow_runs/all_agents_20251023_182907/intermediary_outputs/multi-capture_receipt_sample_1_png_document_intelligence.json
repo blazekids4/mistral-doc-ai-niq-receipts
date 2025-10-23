@@ -1,0 +1,4530 @@
+{
+  "source": "document_intelligence",
+  "merchant_name": "GLOBUS Handelshof St.Wendel GmbH & Co.KG",
+  "transaction_date": "16.08.24",
+  "transaction_time": "12:31 Uhr",
+  "total_amount": null,
+  "currency": null,
+  "items": [],
+  "raw_response": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-receipt",
+    "stringIndexType": "textElements",
+    "content": "OP\nAN\nJaHIms\nGLOBUS\nGLOBUS Handelshof St.Wendel GmbH & Co.KG\nMarkthalle Bochum-Rienke\nRiemker Str. 13 - 44809 Bochum\nelefon: 0234/955420\nSteuer-Nr. 040 154 09776\nGl\u00e4ubiger-ID DE59ZZZ000000052742.\nIEIT\nPAYBACK Kartennr: XXXXXXXXX1232\nZEITSCHRIFTEN\nEUR\n#4023103238978\n1,30 2\nMicrofaser Colors 14\nFRUCHTQUARK 500 G\n9,99 1\n#4006501521040\n2,29 2\nErsatzkopf\nErdnu\u00dfLocken 150g\n10,99 1\n2.19 2\nErdnu\u00dfLocken 150g\n2.19 2\nCadbury Dairy Milk 1\n2\nX\n3,49\n6.98 2\n#5410076541553\nAuch fyr lay\nSwiffer SM NF 9er\n4,99 1\nRATATIO\nDI\u010c MO\nANZ. ARTIKEL\n9\nSumme\n40,92\nVISA\nEUR\n40,92\n-K-U-N-D-E-N-B-E-L-E-G-\nTerminal-ID :\n66078359\nTA-Nr 069417\nBNr 9384\nKartenzahlung\nVisa kontaktlos\nVisa\nEUR 40,92\nPAN\n############6494\nKarte 0\nEMV-AID\nA0000000031010\n4556799958\nVU-Nr\n816069\nGenehmigungs-Nr\n12:31 Uhr\nDatum 16.08.24\nEMV-Daten\n0000000000/0000////BBE563A2/80\nsung erfolgt",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0.06893126666545868,
+        "width": 600,
+        "height": 800,
+        "unit": "pixel",
+        "words": [
+          {
+            "content": "OP",
+            "polygon": [
+              340,
+              2,
+              344,
+              32,
+              320,
+              32,
+              317,
+              2
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 0,
+              "length": 2
+            }
+          },
+          {
+            "content": "AN",
+            "polygon": [
+              380,
+              1,
+              385,
+              39,
+              351,
+              39,
+              346,
+              1
+            ],
+            "confidence": 0.734,
+            "span": {
+              "offset": 3,
+              "length": 2
+            }
+          },
+          {
+            "content": "JaHIms",
+            "polygon": [
+              486,
+              12,
+              517,
+              171,
+              479,
+              175,
+              450,
+              17
+            ],
+            "confidence": 0.573,
+            "span": {
+              "offset": 6,
+              "length": 6
+            }
+          },
+          {
+            "content": "GLOBUS",
+            "polygon": [
+              247,
+              172,
+              354,
+              174,
+              354,
+              198,
+              245,
+              196
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 13,
+              "length": 6
+            }
+          },
+          {
+            "content": "GLOBUS",
+            "polygon": [
+              175,
+              194,
+              212,
+              200,
+              211,
+              212,
+              174,
+              206
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 20,
+              "length": 6
+            }
+          },
+          {
+            "content": "Handelshof",
+            "polygon": [
+              218,
+              200,
+              275,
+              206,
+              275,
+              219,
+              217,
+              213
+            ],
+            "confidence": 0.935,
+            "span": {
+              "offset": 27,
+              "length": 10
+            }
+          },
+          {
+            "content": "St.Wendel",
+            "polygon": [
+              283,
+              207,
+              333,
+              208,
+              333,
+              221,
+              282,
+              219
+            ],
+            "confidence": 0.902,
+            "span": {
+              "offset": 38,
+              "length": 9
+            }
+          },
+          {
+            "content": "GmbH",
+            "polygon": [
+              341,
+              208,
+              365,
+              208,
+              365,
+              221,
+              341,
+              221
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 48,
+              "length": 4
+            }
+          },
+          {
+            "content": "&",
+            "polygon": [
+              371,
+              208,
+              377,
+              208,
+              377,
+              221,
+              371,
+              221
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 53,
+              "length": 1
+            }
+          },
+          {
+            "content": "Co.KG",
+            "polygon": [
+              383,
+              208,
+              415,
+              208,
+              415,
+              220,
+              382,
+              221
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 55,
+              "length": 5
+            }
+          },
+          {
+            "content": "Markthalle",
+            "polygon": [
+              222,
+              217,
+              282,
+              220,
+              281,
+              232,
+              222,
+              229
+            ],
+            "confidence": 0.956,
+            "span": {
+              "offset": 61,
+              "length": 10
+            }
+          },
+          {
+            "content": "Bochum-Rienke",
+            "polygon": [
+              288,
+              221,
+              366,
+              223,
+              366,
+              235,
+              287,
+              233
+            ],
+            "confidence": 0.737,
+            "span": {
+              "offset": 72,
+              "length": 13
+            }
+          },
+          {
+            "content": "Riemker",
+            "polygon": [
+              203,
+              228,
+              246,
+              231,
+              245,
+              244,
+              203,
+              240
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 86,
+              "length": 7
+            }
+          },
+          {
+            "content": "Str.",
+            "polygon": [
+              252,
+              232,
+              274,
+              233,
+              274,
+              245,
+              252,
+              244
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 94,
+              "length": 4
+            }
+          },
+          {
+            "content": "13",
+            "polygon": [
+              283,
+              233,
+              293,
+              234,
+              293,
+              246,
+              282,
+              245
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 99,
+              "length": 2
+            }
+          },
+          {
+            "content": "-",
+            "polygon": [
+              300,
+              234,
+              305,
+              234,
+              305,
+              246,
+              300,
+              246
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 102,
+              "length": 1
+            }
+          },
+          {
+            "content": "44809",
+            "polygon": [
+              311,
+              234,
+              341,
+              235,
+              340,
+              247,
+              311,
+              246
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 104,
+              "length": 5
+            }
+          },
+          {
+            "content": "Bochum",
+            "polygon": [
+              347,
+              235,
+              384,
+              236,
+              384,
+              248,
+              346,
+              247
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 110,
+              "length": 6
+            }
+          },
+          {
+            "content": "elefon:",
+            "polygon": [
+              237,
+              245,
+              280,
+              247,
+              280,
+              259,
+              236,
+              257
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 117,
+              "length": 7
+            }
+          },
+          {
+            "content": "0234/955420",
+            "polygon": [
+              287,
+              247,
+              354,
+              249,
+              353,
+              261,
+              287,
+              259
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 125,
+              "length": 11
+            }
+          },
+          {
+            "content": "Steuer-Nr.",
+            "polygon": [
+              221,
+              257,
+              280,
+              260,
+              279,
+              272,
+              220,
+              268
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 137,
+              "length": 10
+            }
+          },
+          {
+            "content": "040",
+            "polygon": [
+              287,
+              260,
+              305,
+              261,
+              305,
+              273,
+              287,
+              272
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 148,
+              "length": 3
+            }
+          },
+          {
+            "content": "154",
+            "polygon": [
+              311,
+              261,
+              328,
+              261,
+              328,
+              273,
+              311,
+              273
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 152,
+              "length": 3
+            }
+          },
+          {
+            "content": "09776",
+            "polygon": [
+              334,
+              262,
+              366,
+              262,
+              366,
+              274,
+              334,
+              273
+            ],
+            "confidence": 0.958,
+            "span": {
+              "offset": 156,
+              "length": 5
+            }
+          },
+          {
+            "content": "Gl\u00e4ubiger-ID",
+            "polygon": [
+              196,
+              268,
+              272,
+              272,
+              271,
+              285,
+              195,
+              281
+            ],
+            "confidence": 0.703,
+            "span": {
+              "offset": 162,
+              "length": 12
+            }
+          },
+          {
+            "content": "DE59ZZZ000000052742.",
+            "polygon": [
+              275,
+              272,
+              390,
+              276,
+              390,
+              288,
+              275,
+              285
+            ],
+            "confidence": 0.69,
+            "span": {
+              "offset": 175,
+              "length": 20
+            }
+          },
+          {
+            "content": "IEIT",
+            "polygon": [
+              591,
+              269,
+              599,
+              419,
+              542,
+              422,
+              536,
+              273
+            ],
+            "confidence": 0.975,
+            "span": {
+              "offset": 196,
+              "length": 4
+            }
+          },
+          {
+            "content": "PAYBACK",
+            "polygon": [
+              165,
+              293,
+              209,
+              296,
+              208,
+              309,
+              164,
+              305
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 201,
+              "length": 7
+            }
+          },
+          {
+            "content": "Kartennr:",
+            "polygon": [
+              215,
+              296,
+              267,
+              299,
+              267,
+              312,
+              214,
+              309
+            ],
+            "confidence": 0.911,
+            "span": {
+              "offset": 209,
+              "length": 9
+            }
+          },
+          {
+            "content": "XXXXXXXXX1232",
+            "polygon": [
+              275,
+              299,
+              353,
+              302,
+              353,
+              315,
+              275,
+              312
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 219,
+              "length": 13
+            }
+          },
+          {
+            "content": "ZEITSCHRIFTEN",
+            "polygon": [
+              163,
+              349,
+              246,
+              352,
+              246,
+              364,
+              163,
+              361
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 233,
+              "length": 13
+            }
+          },
+          {
+            "content": "EUR",
+            "polygon": [
+              356,
+              342,
+              375,
+              342,
+              375,
+              353,
+              356,
+              353
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 247,
+              "length": 3
+            }
+          },
+          {
+            "content": "#4023103238978",
+            "polygon": [
+              164,
+              363,
+              251,
+              366,
+              251,
+              378,
+              163,
+              375
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 251,
+              "length": 14
+            }
+          },
+          {
+            "content": "1,30",
+            "polygon": [
+              356,
+              356,
+              380,
+              356,
+              380,
+              367,
+              356,
+              367
+            ],
+            "confidence": 0.92,
+            "span": {
+              "offset": 266,
+              "length": 4
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              386,
+              356,
+              393,
+              356,
+              393,
+              367,
+              386,
+              367
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 271,
+              "length": 1
+            }
+          },
+          {
+            "content": "Microfaser",
+            "polygon": [
+              163,
+              377,
+              225,
+              379,
+              225,
+              391,
+              162,
+              389
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 273,
+              "length": 10
+            }
+          },
+          {
+            "content": "Colors",
+            "polygon": [
+              232,
+              379,
+              267,
+              380,
+              267,
+              392,
+              231,
+              391
+            ],
+            "confidence": 0.833,
+            "span": {
+              "offset": 284,
+              "length": 6
+            }
+          },
+          {
+            "content": "14",
+            "polygon": [
+              274,
+              380,
+              288,
+              381,
+              288,
+              392,
+              274,
+              392
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 291,
+              "length": 2
+            }
+          },
+          {
+            "content": "FRUCHTQUARK",
+            "polygon": [
+              162,
+              391,
+              231,
+              392,
+              231,
+              404,
+              162,
+              403
+            ],
+            "confidence": 0.949,
+            "span": {
+              "offset": 294,
+              "length": 11
+            }
+          },
+          {
+            "content": "500",
+            "polygon": [
+              237,
+              392,
+              255,
+              393,
+              255,
+              405,
+              237,
+              404
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 306,
+              "length": 3
+            }
+          },
+          {
+            "content": "G",
+            "polygon": [
+              261,
+              393,
+              269,
+              393,
+              269,
+              405,
+              261,
+              405
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 310,
+              "length": 1
+            }
+          },
+          {
+            "content": "9,99",
+            "polygon": [
+              355,
+              382,
+              379,
+              383,
+              379,
+              394,
+              355,
+              393
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 312,
+              "length": 4
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              386,
+              383,
+              392,
+              383,
+              392,
+              394,
+              386,
+              394
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 317,
+              "length": 1
+            }
+          },
+          {
+            "content": "#4006501521040",
+            "polygon": [
+              162,
+              405,
+              251,
+              406,
+              251,
+              418,
+              162,
+              416
+            ],
+            "confidence": 0.983,
+            "span": {
+              "offset": 319,
+              "length": 14
+            }
+          },
+          {
+            "content": "2,29",
+            "polygon": [
+              355,
+              395,
+              379,
+              396,
+              379,
+              407,
+              355,
+              407
+            ],
+            "confidence": 0.883,
+            "span": {
+              "offset": 334,
+              "length": 4
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              385,
+              396,
+              392,
+              396,
+              392,
+              407,
+              385,
+              407
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 339,
+              "length": 1
+            }
+          },
+          {
+            "content": "Ersatzkopf",
+            "polygon": [
+              162,
+              419,
+              226,
+              420,
+              225,
+              432,
+              161,
+              431
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 341,
+              "length": 10
+            }
+          },
+          {
+            "content": "Erdnu\u00dfLocken",
+            "polygon": [
+              161,
+              433,
+              237,
+              433,
+              236,
+              446,
+              161,
+              445
+            ],
+            "confidence": 0.942,
+            "span": {
+              "offset": 352,
+              "length": 12
+            }
+          },
+          {
+            "content": "150g",
+            "polygon": [
+              243,
+              434,
+              268,
+              434,
+              268,
+              446,
+              243,
+              446
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 365,
+              "length": 4
+            }
+          },
+          {
+            "content": "10,99",
+            "polygon": [
+              350,
+              422,
+              379,
+              422,
+              379,
+              434,
+              350,
+              434
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 370,
+              "length": 5
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              385,
+              422,
+              391,
+              422,
+              391,
+              434,
+              385,
+              434
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 376,
+              "length": 1
+            }
+          },
+          {
+            "content": "2.19",
+            "polygon": [
+              354,
+              435,
+              379,
+              435,
+              378,
+              447,
+              354,
+              447
+            ],
+            "confidence": 0.912,
+            "span": {
+              "offset": 378,
+              "length": 4
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              384,
+              436,
+              392,
+              436,
+              392,
+              447,
+              384,
+              447
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 383,
+              "length": 1
+            }
+          },
+          {
+            "content": "Erdnu\u00dfLocken",
+            "polygon": [
+              161,
+              447,
+              238,
+              447,
+              238,
+              459,
+              160,
+              459
+            ],
+            "confidence": 0.671,
+            "span": {
+              "offset": 385,
+              "length": 12
+            }
+          },
+          {
+            "content": "150g",
+            "polygon": [
+              243,
+              447,
+              268,
+              448,
+              268,
+              460,
+              243,
+              459
+            ],
+            "confidence": 0.984,
+            "span": {
+              "offset": 398,
+              "length": 4
+            }
+          },
+          {
+            "content": "2.19",
+            "polygon": [
+              354,
+              449,
+              378,
+              449,
+              378,
+              461,
+              354,
+              461
+            ],
+            "confidence": 0.656,
+            "span": {
+              "offset": 403,
+              "length": 4
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              385,
+              449,
+              392,
+              449,
+              392,
+              461,
+              384,
+              461
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 408,
+              "length": 1
+            }
+          },
+          {
+            "content": "Cadbury",
+            "polygon": [
+              161,
+              461,
+              205,
+              461,
+              205,
+              474,
+              161,
+              474
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 410,
+              "length": 7
+            }
+          },
+          {
+            "content": "Dairy",
+            "polygon": [
+              211,
+              461,
+              242,
+              461,
+              242,
+              473,
+              211,
+              474
+            ],
+            "confidence": 0.878,
+            "span": {
+              "offset": 418,
+              "length": 5
+            }
+          },
+          {
+            "content": "Milk",
+            "polygon": [
+              248,
+              461,
+              271,
+              461,
+              271,
+              473,
+              248,
+              473
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 424,
+              "length": 4
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              279,
+              461,
+              285,
+              461,
+              285,
+              473,
+              278,
+              473
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 429,
+              "length": 1
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              217,
+              475,
+              225,
+              475,
+              225,
+              486,
+              217,
+              486
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 431,
+              "length": 1
+            }
+          },
+          {
+            "content": "X",
+            "polygon": [
+              247,
+              477,
+              255,
+              477,
+              255,
+              485,
+              247,
+              485
+            ],
+            "confidence": 0.642,
+            "span": {
+              "offset": 433,
+              "length": 1
+            }
+          },
+          {
+            "content": "3,49",
+            "polygon": [
+              277,
+              475,
+              303,
+              475,
+              303,
+              486,
+              277,
+              486
+            ],
+            "confidence": 0.687,
+            "span": {
+              "offset": 435,
+              "length": 4
+            }
+          },
+          {
+            "content": "6.98",
+            "polygon": [
+              353,
+              475,
+              378,
+              475,
+              378,
+              487,
+              353,
+              487
+            ],
+            "confidence": 0.656,
+            "span": {
+              "offset": 440,
+              "length": 4
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              384,
+              475,
+              392,
+              475,
+              392,
+              487,
+              384,
+              487
+            ],
+            "confidence": 0.99,
+            "span": {
+              "offset": 445,
+              "length": 1
+            }
+          },
+          {
+            "content": "#5410076541553",
+            "polygon": [
+              160,
+              489,
+              249,
+              488,
+              249,
+              500,
+              160,
+              501
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 447,
+              "length": 14
+            }
+          },
+          {
+            "content": "Auch",
+            "polygon": [
+              489,
+              497,
+              488,
+              533,
+              471,
+              533,
+              472,
+              498
+            ],
+            "confidence": 0.613,
+            "span": {
+              "offset": 462,
+              "length": 4
+            }
+          },
+          {
+            "content": "fyr",
+            "polygon": [
+              488,
+              536,
+              488,
+              553,
+              470,
+              553,
+              471,
+              537
+            ],
+            "confidence": 0.643,
+            "span": {
+              "offset": 467,
+              "length": 3
+            }
+          },
+          {
+            "content": "lay",
+            "polygon": [
+              487,
+              556,
+              487,
+              574,
+              470,
+              574,
+              470,
+              556
+            ],
+            "confidence": 0.421,
+            "span": {
+              "offset": 471,
+              "length": 3
+            }
+          },
+          {
+            "content": "Swiffer",
+            "polygon": [
+              160,
+              503,
+              204,
+              502,
+              204,
+              514,
+              160,
+              515
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 475,
+              "length": 7
+            }
+          },
+          {
+            "content": "SM",
+            "polygon": [
+              210,
+              502,
+              223,
+              502,
+              223,
+              514,
+              210,
+              514
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 483,
+              "length": 2
+            }
+          },
+          {
+            "content": "NF",
+            "polygon": [
+              229,
+              502,
+              240,
+              501,
+              240,
+              514,
+              229,
+              514
+            ],
+            "confidence": 0.982,
+            "span": {
+              "offset": 486,
+              "length": 2
+            }
+          },
+          {
+            "content": "9er",
+            "polygon": [
+              247,
+              501,
+              267,
+              501,
+              267,
+              513,
+              247,
+              514
+            ],
+            "confidence": 0.941,
+            "span": {
+              "offset": 489,
+              "length": 3
+            }
+          },
+          {
+            "content": "4,99",
+            "polygon": [
+              354,
+              502,
+              378,
+              502,
+              378,
+              514,
+              354,
+              513
+            ],
+            "confidence": 0.941,
+            "span": {
+              "offset": 493,
+              "length": 4
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              385,
+              502,
+              391,
+              502,
+              391,
+              514,
+              385,
+              514
+            ],
+            "confidence": 0.941,
+            "span": {
+              "offset": 498,
+              "length": 1
+            }
+          },
+          {
+            "content": "RATATIO",
+            "polygon": [
+              468,
+              506,
+              465,
+              578,
+              446,
+              579,
+              447,
+              507
+            ],
+            "confidence": 0.909,
+            "span": {
+              "offset": 500,
+              "length": 7
+            }
+          },
+          {
+            "content": "DI\u010c",
+            "polygon": [
+              448,
+              512,
+              449,
+              540,
+              433,
+              540,
+              434,
+              513
+            ],
+            "confidence": 0.18,
+            "span": {
+              "offset": 508,
+              "length": 3
+            }
+          },
+          {
+            "content": "MO",
+            "polygon": [
+              449,
+              559,
+              447,
+              581,
+              433,
+              581,
+              433,
+              559
+            ],
+            "confidence": 0.473,
+            "span": {
+              "offset": 512,
+              "length": 2
+            }
+          },
+          {
+            "content": "ANZ.",
+            "polygon": [
+              177,
+              529,
+              201,
+              529,
+              201,
+              542,
+              177,
+              542
+            ],
+            "confidence": 0.949,
+            "span": {
+              "offset": 515,
+              "length": 4
+            }
+          },
+          {
+            "content": "ARTIKEL",
+            "polygon": [
+              210,
+              529,
+              253,
+              529,
+              253,
+              542,
+              210,
+              542
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 520,
+              "length": 7
+            }
+          },
+          {
+            "content": "9",
+            "polygon": [
+              270,
+              529,
+              279,
+              529,
+              279,
+              541,
+              270,
+              540
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 528,
+              "length": 1
+            }
+          },
+          {
+            "content": "Summe",
+            "polygon": [
+              165,
+              546,
+              229,
+              546,
+              229,
+              566,
+              165,
+              566
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 530,
+              "length": 5
+            }
+          },
+          {
+            "content": "40,92",
+            "polygon": [
+              360,
+              543,
+              420,
+              543,
+              420,
+              565,
+              360,
+              564
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 536,
+              "length": 5
+            }
+          },
+          {
+            "content": "VISA",
+            "polygon": [
+              158,
+              571,
+              185,
+              571,
+              185,
+              582,
+              158,
+              583
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 542,
+              "length": 4
+            }
+          },
+          {
+            "content": "EUR",
+            "polygon": [
+              281,
+              567,
+              301,
+              567,
+              301,
+              577,
+              281,
+              578
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 547,
+              "length": 3
+            }
+          },
+          {
+            "content": "40,92",
+            "polygon": [
+              347,
+              567,
+              379,
+              567,
+              378,
+              579,
+              347,
+              578
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 551,
+              "length": 5
+            }
+          },
+          {
+            "content": "-K-U-N-D-E-N-B-E-L-E-G-",
+            "polygon": [
+              222,
+              582,
+              360,
+              580,
+              360,
+              591,
+              223,
+              594
+            ],
+            "confidence": 0.85,
+            "span": {
+              "offset": 557,
+              "length": 23
+            }
+          },
+          {
+            "content": "Terminal-ID",
+            "polygon": [
+              157,
+              599,
+              227,
+              596,
+              227,
+              609,
+              157,
+              611
+            ],
+            "confidence": 0.969,
+            "span": {
+              "offset": 581,
+              "length": 11
+            }
+          },
+          {
+            "content": ":",
+            "polygon": [
+              235,
+              596,
+              240,
+              596,
+              240,
+              608,
+              235,
+              608
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 593,
+              "length": 1
+            }
+          },
+          {
+            "content": "66078359",
+            "polygon": [
+              364,
+              593,
+              415,
+              593,
+              415,
+              604,
+              364,
+              605
+            ],
+            "confidence": 0.969,
+            "span": {
+              "offset": 595,
+              "length": 8
+            }
+          },
+          {
+            "content": "TA-Nr",
+            "polygon": [
+              157,
+              613,
+              189,
+              612,
+              190,
+              624,
+              157,
+              625
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 604,
+              "length": 5
+            }
+          },
+          {
+            "content": "069417",
+            "polygon": [
+              195,
+              612,
+              235,
+              610,
+              236,
+              622,
+              196,
+              624
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 610,
+              "length": 6
+            }
+          },
+          {
+            "content": "BNr",
+            "polygon": [
+              364,
+              607,
+              382,
+              607,
+              382,
+              618,
+              364,
+              619
+            ],
+            "confidence": 0.26,
+            "span": {
+              "offset": 617,
+              "length": 3
+            }
+          },
+          {
+            "content": "9384",
+            "polygon": [
+              388,
+              607,
+              414,
+              607,
+              414,
+              618,
+              388,
+              618
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 621,
+              "length": 4
+            }
+          },
+          {
+            "content": "Kartenzahlung",
+            "polygon": [
+              243,
+              623,
+              325,
+              620,
+              325,
+              633,
+              243,
+              635
+            ],
+            "confidence": 0.968,
+            "span": {
+              "offset": 626,
+              "length": 13
+            }
+          },
+          {
+            "content": "Visa",
+            "polygon": [
+              239,
+              638,
+              263,
+              637,
+              263,
+              648,
+              239,
+              649
+            ],
+            "confidence": 0.888,
+            "span": {
+              "offset": 640,
+              "length": 4
+            }
+          },
+          {
+            "content": "kontaktlos",
+            "polygon": [
+              269,
+              637,
+              330,
+              634,
+              330,
+              646,
+              269,
+              648
+            ],
+            "confidence": 0.98,
+            "span": {
+              "offset": 645,
+              "length": 10
+            }
+          },
+          {
+            "content": "Visa",
+            "polygon": [
+              274,
+              650,
+              300,
+              649,
+              300,
+              660,
+              274,
+              661
+            ],
+            "confidence": 0.886,
+            "span": {
+              "offset": 656,
+              "length": 4
+            }
+          },
+          {
+            "content": "EUR",
+            "polygon": [
+              193,
+              668,
+              213,
+              666,
+              213,
+              678,
+              193,
+              680
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 661,
+              "length": 3
+            }
+          },
+          {
+            "content": "40,92",
+            "polygon": [
+              219,
+              666,
+              252,
+              664,
+              252,
+              676,
+              220,
+              678
+            ],
+            "confidence": 0.96,
+            "span": {
+              "offset": 665,
+              "length": 5
+            }
+          },
+          {
+            "content": "PAN",
+            "polygon": [
+              155,
+              684,
+              177,
+              683,
+              177,
+              694,
+              155,
+              695
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 671,
+              "length": 3
+            }
+          },
+          {
+            "content": "############6494",
+            "polygon": [
+              315,
+              675,
+              412,
+              671,
+              412,
+              684,
+              316,
+              687
+            ],
+            "confidence": 0.73,
+            "span": {
+              "offset": 675,
+              "length": 16
+            }
+          },
+          {
+            "content": "Karte",
+            "polygon": [
+              154,
+              698,
+              187,
+              696,
+              188,
+              707,
+              155,
+              710
+            ],
+            "confidence": 0.912,
+            "span": {
+              "offset": 692,
+              "length": 5
+            }
+          },
+          {
+            "content": "0",
+            "polygon": [
+              194,
+              695,
+              202,
+              695,
+              203,
+              706,
+              194,
+              707
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 698,
+              "length": 1
+            }
+          },
+          {
+            "content": "EMV-AID",
+            "polygon": [
+              155,
+              712,
+              202,
+              709,
+              202,
+              720,
+              155,
+              724
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 700,
+              "length": 7
+            }
+          },
+          {
+            "content": "A0000000031010",
+            "polygon": [
+              327,
+              702,
+              411,
+              698,
+              411,
+              710,
+              328,
+              713
+            ],
+            "confidence": 0.987,
+            "span": {
+              "offset": 708,
+              "length": 14
+            }
+          },
+          {
+            "content": "4556799958",
+            "polygon": [
+              352,
+              715,
+              410,
+              712,
+              411,
+              723,
+              352,
+              726
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 723,
+              "length": 10
+            }
+          },
+          {
+            "content": "VU-Nr",
+            "polygon": [
+              154,
+              726,
+              188,
+              724,
+              188,
+              736,
+              155,
+              738
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 734,
+              "length": 5
+            }
+          },
+          {
+            "content": "816069",
+            "polygon": [
+              374,
+              728,
+              410,
+              726,
+              411,
+              737,
+              375,
+              739
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 740,
+              "length": 6
+            }
+          },
+          {
+            "content": "Genehmigungs-Nr",
+            "polygon": [
+              155,
+              741,
+              250,
+              734,
+              250,
+              746,
+              155,
+              753
+            ],
+            "confidence": 0.903,
+            "span": {
+              "offset": 747,
+              "length": 15
+            }
+          },
+          {
+            "content": "12:31",
+            "polygon": [
+              357,
+              742,
+              385,
+              741,
+              385,
+              753,
+              357,
+              754
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 763,
+              "length": 5
+            }
+          },
+          {
+            "content": "Uhr",
+            "polygon": [
+              391,
+              740,
+              410,
+              740,
+              410,
+              751,
+              392,
+              752
+            ],
+            "confidence": 0.889,
+            "span": {
+              "offset": 769,
+              "length": 3
+            }
+          },
+          {
+            "content": "Datum",
+            "polygon": [
+              154,
+              755,
+              186,
+              752,
+              187,
+              765,
+              155,
+              767
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 773,
+              "length": 5
+            }
+          },
+          {
+            "content": "16.08.24",
+            "polygon": [
+              193,
+              752,
+              244,
+              748,
+              245,
+              761,
+              194,
+              764
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 779,
+              "length": 8
+            }
+          },
+          {
+            "content": "EMV-Daten",
+            "polygon": [
+              154,
+              769,
+              213,
+              766,
+              214,
+              777,
+              154,
+              781
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 788,
+              "length": 9
+            }
+          },
+          {
+            "content": "0000000000/0000////BBE563A2/80",
+            "polygon": [
+              153,
+              783,
+              341,
+              769,
+              341,
+              782,
+              154,
+              795
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 798,
+              "length": 30
+            }
+          },
+          {
+            "content": "sung",
+            "polygon": [
+              210,
+              793,
+              235,
+              792,
+              236,
+              799,
+              212,
+              799
+            ],
+            "confidence": 0.094,
+            "span": {
+              "offset": 829,
+              "length": 4
+            }
+          },
+          {
+            "content": "erfolgt",
+            "polygon": [
+              239,
+              792,
+              286,
+              789,
+              287,
+              799,
+              241,
+              799
+            ],
+            "confidence": 0.921,
+            "span": {
+              "offset": 834,
+              "length": 7
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "OP",
+            "polygon": [
+              341,
+              1,
+              345,
+              31,
+              321,
+              32,
+              317,
+              2
+            ],
+            "spans": [
+              {
+                "offset": 0,
+                "length": 2
+              }
+            ]
+          },
+          {
+            "content": "AN",
+            "polygon": [
+              381,
+              0,
+              385,
+              38,
+              350,
+              39,
+              347,
+              1
+            ],
+            "spans": [
+              {
+                "offset": 3,
+                "length": 2
+              }
+            ]
+          },
+          {
+            "content": "JaHIms",
+            "polygon": [
+              489,
+              12,
+              517,
+              168,
+              480,
+              175,
+              450,
+              17
+            ],
+            "spans": [
+              {
+                "offset": 6,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "GLOBUS",
+            "polygon": [
+              246,
+              172,
+              354,
+              174,
+              353,
+              198,
+              245,
+              196
+            ],
+            "spans": [
+              {
+                "offset": 13,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "GLOBUS Handelshof St.Wendel GmbH & Co.KG",
+            "polygon": [
+              175,
+              194,
+              415,
+              208,
+              414,
+              221,
+              174,
+              213
+            ],
+            "spans": [
+              {
+                "offset": 20,
+                "length": 40
+              }
+            ]
+          },
+          {
+            "content": "Markthalle Bochum-Rienke",
+            "polygon": [
+              222,
+              217,
+              366,
+              223,
+              365,
+              235,
+              222,
+              230
+            ],
+            "spans": [
+              {
+                "offset": 61,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "content": "Riemker Str. 13 - 44809 Bochum",
+            "polygon": [
+              203,
+              228,
+              384,
+              236,
+              383,
+              249,
+              203,
+              242
+            ],
+            "spans": [
+              {
+                "offset": 86,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "elefon: 0234/955420",
+            "polygon": [
+              237,
+              245,
+              353,
+              249,
+              353,
+              261,
+              236,
+              257
+            ],
+            "spans": [
+              {
+                "offset": 117,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "content": "Steuer-Nr. 040 154 09776",
+            "polygon": [
+              221,
+              257,
+              366,
+              262,
+              365,
+              274,
+              220,
+              269
+            ],
+            "spans": [
+              {
+                "offset": 137,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "content": "Gl\u00e4ubiger-ID DE59ZZZ000000052742.",
+            "polygon": [
+              196,
+              268,
+              390,
+              276,
+              389,
+              289,
+              195,
+              282
+            ],
+            "spans": [
+              {
+                "offset": 162,
+                "length": 33
+              }
+            ]
+          },
+          {
+            "content": "IEIT",
+            "polygon": [
+              593,
+              269,
+              599,
+              439,
+              543,
+              441,
+              536,
+              272
+            ],
+            "spans": [
+              {
+                "offset": 196,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "PAYBACK Kartennr: XXXXXXXXX1232",
+            "polygon": [
+              164,
+              293,
+              353,
+              302,
+              352,
+              315,
+              164,
+              307
+            ],
+            "spans": [
+              {
+                "offset": 201,
+                "length": 31
+              }
+            ]
+          },
+          {
+            "content": "ZEITSCHRIFTEN",
+            "polygon": [
+              163,
+              349,
+              246,
+              352,
+              245,
+              364,
+              163,
+              361
+            ],
+            "spans": [
+              {
+                "offset": 233,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "EUR",
+            "polygon": [
+              356,
+              342,
+              375,
+              342,
+              375,
+              353,
+              356,
+              353
+            ],
+            "spans": [
+              {
+                "offset": 247,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "#4023103238978",
+            "polygon": [
+              163,
+              363,
+              251,
+              366,
+              250,
+              378,
+              163,
+              375
+            ],
+            "spans": [
+              {
+                "offset": 251,
+                "length": 14
+              }
+            ]
+          },
+          {
+            "content": "1,30 2",
+            "polygon": [
+              356,
+              356,
+              393,
+              356,
+              392,
+              367,
+              356,
+              367
+            ],
+            "spans": [
+              {
+                "offset": 266,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Microfaser Colors 14",
+            "polygon": [
+              163,
+              377,
+              287,
+              381,
+              287,
+              393,
+              162,
+              389
+            ],
+            "spans": [
+              {
+                "offset": 273,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "FRUCHTQUARK 500 G",
+            "polygon": [
+              162,
+              391,
+              269,
+              393,
+              269,
+              405,
+              162,
+              402
+            ],
+            "spans": [
+              {
+                "offset": 294,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "9,99 1",
+            "polygon": [
+              355,
+              382,
+              392,
+              383,
+              392,
+              394,
+              355,
+              393
+            ],
+            "spans": [
+              {
+                "offset": 312,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "#4006501521040",
+            "polygon": [
+              162,
+              405,
+              251,
+              406,
+              251,
+              418,
+              162,
+              416
+            ],
+            "spans": [
+              {
+                "offset": 319,
+                "length": 14
+              }
+            ]
+          },
+          {
+            "content": "2,29 2",
+            "polygon": [
+              355,
+              395,
+              392,
+              396,
+              392,
+              407,
+              355,
+              407
+            ],
+            "spans": [
+              {
+                "offset": 334,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Ersatzkopf",
+            "polygon": [
+              162,
+              419,
+              225,
+              420,
+              225,
+              432,
+              161,
+              431
+            ],
+            "spans": [
+              {
+                "offset": 341,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "Erdnu\u00dfLocken 150g",
+            "polygon": [
+              161,
+              433,
+              267,
+              434,
+              267,
+              446,
+              161,
+              445
+            ],
+            "spans": [
+              {
+                "offset": 352,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "10,99 1",
+            "polygon": [
+              350,
+              422,
+              391,
+              422,
+              391,
+              434,
+              350,
+              433
+            ],
+            "spans": [
+              {
+                "offset": 370,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "2.19 2",
+            "polygon": [
+              354,
+              435,
+              392,
+              435,
+              392,
+              447,
+              354,
+              447
+            ],
+            "spans": [
+              {
+                "offset": 378,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Erdnu\u00dfLocken 150g",
+            "polygon": [
+              160,
+              447,
+              267,
+              447,
+              267,
+              459,
+              160,
+              459
+            ],
+            "spans": [
+              {
+                "offset": 385,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "2.19 2",
+            "polygon": [
+              354,
+              449,
+              392,
+              449,
+              391,
+              460,
+              354,
+              460
+            ],
+            "spans": [
+              {
+                "offset": 403,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Cadbury Dairy Milk 1",
+            "polygon": [
+              160,
+              461,
+              284,
+              461,
+              284,
+              473,
+              161,
+              473
+            ],
+            "spans": [
+              {
+                "offset": 410,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "2",
+            "polygon": [
+              217,
+              475,
+              224,
+              475,
+              224,
+              486,
+              217,
+              486
+            ],
+            "spans": [
+              {
+                "offset": 431,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "content": "X",
+            "polygon": [
+              247,
+              477,
+              255,
+              477,
+              255,
+              485,
+              247,
+              485
+            ],
+            "spans": [
+              {
+                "offset": 433,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "content": "3,49",
+            "polygon": [
+              277,
+              475,
+              303,
+              475,
+              303,
+              486,
+              277,
+              486
+            ],
+            "spans": [
+              {
+                "offset": 435,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "6.98 2",
+            "polygon": [
+              353,
+              475,
+              392,
+              475,
+              392,
+              487,
+              353,
+              487
+            ],
+            "spans": [
+              {
+                "offset": 440,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "#5410076541553",
+            "polygon": [
+              160,
+              489,
+              249,
+              488,
+              249,
+              500,
+              160,
+              500
+            ],
+            "spans": [
+              {
+                "offset": 447,
+                "length": 14
+              }
+            ]
+          },
+          {
+            "content": "Auch fyr lay",
+            "polygon": [
+              489,
+              497,
+              487,
+              574,
+              470,
+              574,
+              472,
+              496
+            ],
+            "spans": [
+              {
+                "offset": 462,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "Swiffer SM NF 9er",
+            "polygon": [
+              160,
+              502,
+              267,
+              501,
+              267,
+              513,
+              160,
+              515
+            ],
+            "spans": [
+              {
+                "offset": 475,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "4,99 1",
+            "polygon": [
+              354,
+              502,
+              391,
+              502,
+              391,
+              514,
+              354,
+              513
+            ],
+            "spans": [
+              {
+                "offset": 493,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "RATATIO",
+            "polygon": [
+              469,
+              506,
+              467,
+              578,
+              446,
+              578,
+              448,
+              506
+            ],
+            "spans": [
+              {
+                "offset": 500,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "DI\u010c MO",
+            "polygon": [
+              449,
+              512,
+              449,
+              580,
+              433,
+              580,
+              433,
+              512
+            ],
+            "spans": [
+              {
+                "offset": 508,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "ANZ. ARTIKEL",
+            "polygon": [
+              177,
+              529,
+              253,
+              528,
+              253,
+              541,
+              177,
+              542
+            ],
+            "spans": [
+              {
+                "offset": 515,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "9",
+            "polygon": [
+              270,
+              529,
+              279,
+              529,
+              279,
+              540,
+              270,
+              540
+            ],
+            "spans": [
+              {
+                "offset": 528,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "content": "Summe",
+            "polygon": [
+              165,
+              546,
+              229,
+              546,
+              229,
+              566,
+              165,
+              566
+            ],
+            "spans": [
+              {
+                "offset": 530,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "40,92",
+            "polygon": [
+              360,
+              543,
+              420,
+              543,
+              420,
+              565,
+              360,
+              564
+            ],
+            "spans": [
+              {
+                "offset": 536,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "VISA",
+            "polygon": [
+              158,
+              571,
+              185,
+              570,
+              185,
+              582,
+              158,
+              582
+            ],
+            "spans": [
+              {
+                "offset": 542,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "EUR",
+            "polygon": [
+              281,
+              567,
+              301,
+              567,
+              301,
+              577,
+              281,
+              577
+            ],
+            "spans": [
+              {
+                "offset": 547,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "40,92",
+            "polygon": [
+              347,
+              567,
+              378,
+              567,
+              378,
+              579,
+              347,
+              578
+            ],
+            "spans": [
+              {
+                "offset": 551,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "-K-U-N-D-E-N-B-E-L-E-G-",
+            "polygon": [
+              222,
+              581,
+              359,
+              579,
+              359,
+              591,
+              223,
+              593
+            ],
+            "spans": [
+              {
+                "offset": 557,
+                "length": 23
+              }
+            ]
+          },
+          {
+            "content": "Terminal-ID :",
+            "polygon": [
+              157,
+              599,
+              239,
+              596,
+              239,
+              608,
+              157,
+              611
+            ],
+            "spans": [
+              {
+                "offset": 581,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "66078359",
+            "polygon": [
+              364,
+              593,
+              414,
+              593,
+              414,
+              604,
+              364,
+              605
+            ],
+            "spans": [
+              {
+                "offset": 595,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "TA-Nr 069417",
+            "polygon": [
+              157,
+              613,
+              235,
+              610,
+              235,
+              622,
+              157,
+              625
+            ],
+            "spans": [
+              {
+                "offset": 604,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "BNr 9384",
+            "polygon": [
+              364,
+              607,
+              413,
+              607,
+              413,
+              618,
+              364,
+              618
+            ],
+            "spans": [
+              {
+                "offset": 617,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Kartenzahlung",
+            "polygon": [
+              243,
+              623,
+              324,
+              620,
+              325,
+              633,
+              243,
+              635
+            ],
+            "spans": [
+              {
+                "offset": 626,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "Visa kontaktlos",
+            "polygon": [
+              239,
+              638,
+              329,
+              634,
+              330,
+              646,
+              239,
+              649
+            ],
+            "spans": [
+              {
+                "offset": 640,
+                "length": 15
+              }
+            ]
+          },
+          {
+            "content": "Visa",
+            "polygon": [
+              274,
+              650,
+              300,
+              649,
+              300,
+              660,
+              274,
+              660
+            ],
+            "spans": [
+              {
+                "offset": 656,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "EUR 40,92",
+            "polygon": [
+              193,
+              667,
+              251,
+              664,
+              252,
+              676,
+              193,
+              679
+            ],
+            "spans": [
+              {
+                "offset": 661,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "PAN",
+            "polygon": [
+              154,
+              684,
+              176,
+              683,
+              177,
+              694,
+              155,
+              695
+            ],
+            "spans": [
+              {
+                "offset": 671,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "############6494",
+            "polygon": [
+              315,
+              675,
+              411,
+              671,
+              411,
+              684,
+              316,
+              687
+            ],
+            "spans": [
+              {
+                "offset": 675,
+                "length": 16
+              }
+            ]
+          },
+          {
+            "content": "Karte 0",
+            "polygon": [
+              154,
+              698,
+              202,
+              695,
+              203,
+              706,
+              155,
+              710
+            ],
+            "spans": [
+              {
+                "offset": 692,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "EMV-AID",
+            "polygon": [
+              155,
+              712,
+              201,
+              709,
+              201,
+              720,
+              155,
+              723
+            ],
+            "spans": [
+              {
+                "offset": 700,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "A0000000031010",
+            "polygon": [
+              327,
+              701,
+              410,
+              698,
+              411,
+              710,
+              328,
+              713
+            ],
+            "spans": [
+              {
+                "offset": 708,
+                "length": 14
+              }
+            ]
+          },
+          {
+            "content": "4556799958",
+            "polygon": [
+              351,
+              715,
+              410,
+              712,
+              410,
+              723,
+              352,
+              726
+            ],
+            "spans": [
+              {
+                "offset": 723,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "VU-Nr",
+            "polygon": [
+              154,
+              726,
+              187,
+              724,
+              188,
+              736,
+              155,
+              738
+            ],
+            "spans": [
+              {
+                "offset": 734,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "816069",
+            "polygon": [
+              374,
+              728,
+              410,
+              726,
+              410,
+              737,
+              375,
+              739
+            ],
+            "spans": [
+              {
+                "offset": 740,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Genehmigungs-Nr",
+            "polygon": [
+              154,
+              741,
+              249,
+              734,
+              250,
+              746,
+              155,
+              753
+            ],
+            "spans": [
+              {
+                "offset": 747,
+                "length": 15
+              }
+            ]
+          },
+          {
+            "content": "12:31 Uhr",
+            "polygon": [
+              357,
+              742,
+              409,
+              739,
+              410,
+              751,
+              357,
+              754
+            ],
+            "spans": [
+              {
+                "offset": 763,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "Datum 16.08.24",
+            "polygon": [
+              154,
+              754,
+              244,
+              748,
+              245,
+              761,
+              155,
+              767
+            ],
+            "spans": [
+              {
+                "offset": 773,
+                "length": 14
+              }
+            ]
+          },
+          {
+            "content": "EMV-Daten",
+            "polygon": [
+              153,
+              769,
+              212,
+              765,
+              213,
+              777,
+              154,
+              781
+            ],
+            "spans": [
+              {
+                "offset": 788,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "0000000000/0000////BBE563A2/80",
+            "polygon": [
+              153,
+              783,
+              340,
+              769,
+              341,
+              782,
+              154,
+              795
+            ],
+            "spans": [
+              {
+                "offset": 798,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "sung erfolgt",
+            "polygon": [
+              183,
+              791,
+              287,
+              789,
+              287,
+              799,
+              183,
+              799
+            ],
+            "spans": [
+              {
+                "offset": 829,
+                "length": 12
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 841
+          }
+        ]
+      }
+    ],
+    "styles": [],
+    "documents": [
+      {
+        "docType": "receipt.retailMeal",
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0,
+              0,
+              600,
+              0,
+              600,
+              800,
+              0,
+              800
+            ]
+          }
+        ],
+        "fields": {
+          "CountryRegion": {
+            "type": "countryRegion",
+            "valueCountryRegion": "DEU",
+            "confidence": 0.995
+          },
+          "Items": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "ZEITSCHRIFTEN",
+                    "content": "ZEITSCHRIFTEN",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          163,
+                          349,
+                          246,
+                          352,
+                          246,
+                          364,
+                          163,
+                          361
+                        ]
+                      }
+                    ],
+                    "confidence": 0.97,
+                    "spans": [
+                      {
+                        "offset": 233,
+                        "length": 13
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 1.3,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "1,30",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          356,
+                          356,
+                          380,
+                          356,
+                          380,
+                          367,
+                          356,
+                          367
+                        ]
+                      }
+                    ],
+                    "confidence": 0.985,
+                    "spans": [
+                      {
+                        "offset": 266,
+                        "length": 4
+                      }
+                    ]
+                  }
+                },
+                "content": "ZEITSCHRIFTEN\n1,30 2",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      163,
+                      349,
+                      393,
+                      349,
+                      393,
+                      367,
+                      163,
+                      367
+                    ]
+                  }
+                ],
+                "confidence": 0.981,
+                "spans": [
+                  {
+                    "offset": 233,
+                    "length": 13
+                  },
+                  {
+                    "offset": 266,
+                    "length": 6
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Microfaser Colors 14",
+                    "content": "Microfaser Colors 14",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          162,
+                          376,
+                          288,
+                          380,
+                          288,
+                          393,
+                          162,
+                          389
+                        ]
+                      }
+                    ],
+                    "confidence": 0.967,
+                    "spans": [
+                      {
+                        "offset": 273,
+                        "length": 20
+                      }
+                    ]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "#4023103238978",
+                    "content": "#4023103238978",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          164,
+                          363,
+                          251,
+                          366,
+                          251,
+                          378,
+                          163,
+                          375
+                        ]
+                      }
+                    ],
+                    "confidence": 0.962,
+                    "spans": [
+                      {
+                        "offset": 251,
+                        "length": 14
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 9.99,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "9,99",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          355,
+                          382,
+                          379,
+                          383,
+                          379,
+                          394,
+                          355,
+                          393
+                        ]
+                      }
+                    ],
+                    "confidence": 0.985,
+                    "spans": [
+                      {
+                        "offset": 312,
+                        "length": 4
+                      }
+                    ]
+                  }
+                },
+                "content": "#4023103238978\nMicrofaser Colors 14\n9,99 1",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      163,
+                      363,
+                      393,
+                      371,
+                      392,
+                      397,
+                      162,
+                      389
+                    ]
+                  }
+                ],
+                "confidence": 0.979,
+                "spans": [
+                  {
+                    "offset": 251,
+                    "length": 14
+                  },
+                  {
+                    "offset": 273,
+                    "length": 20
+                  },
+                  {
+                    "offset": 312,
+                    "length": 6
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "FRUCHTQUARK 500 G",
+                    "content": "FRUCHTQUARK 500 G",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          162,
+                          391,
+                          269,
+                          392,
+                          269,
+                          405,
+                          162,
+                          404
+                        ]
+                      }
+                    ],
+                    "confidence": 0.973,
+                    "spans": [
+                      {
+                        "offset": 294,
+                        "length": 17
+                      }
+                    ]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "#4006501521040",
+                    "content": "#4006501521040",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          162,
+                          405,
+                          251,
+                          406,
+                          251,
+                          418,
+                          162,
+                          416
+                        ]
+                      }
+                    ],
+                    "confidence": 0.96,
+                    "spans": [
+                      {
+                        "offset": 319,
+                        "length": 14
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 2.29,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "2,29",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          355,
+                          395,
+                          379,
+                          396,
+                          379,
+                          407,
+                          355,
+                          407
+                        ]
+                      }
+                    ],
+                    "confidence": 0.984,
+                    "spans": [
+                      {
+                        "offset": 334,
+                        "length": 4
+                      }
+                    ]
+                  }
+                },
+                "content": "FRUCHTQUARK 500 G\n#4006501521040\n2,29 2",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      162,
+                      391,
+                      392,
+                      395,
+                      392,
+                      420,
+                      162,
+                      416
+                    ]
+                  }
+                ],
+                "confidence": 0.981,
+                "spans": [
+                  {
+                    "offset": 294,
+                    "length": 17
+                  },
+                  {
+                    "offset": 319,
+                    "length": 21
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Ersatzkopf",
+                    "content": "Ersatzkopf",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          162,
+                          419,
+                          226,
+                          420,
+                          225,
+                          432,
+                          161,
+                          431
+                        ]
+                      }
+                    ],
+                    "confidence": 0.968,
+                    "spans": [
+                      {
+                        "offset": 341,
+                        "length": 10
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 10.99,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "10,99",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          350,
+                          422,
+                          379,
+                          422,
+                          379,
+                          434,
+                          350,
+                          434
+                        ]
+                      }
+                    ],
+                    "confidence": 0.985,
+                    "spans": [
+                      {
+                        "offset": 370,
+                        "length": 5
+                      }
+                    ]
+                  }
+                },
+                "content": "Ersatzkopf\n10,99 1",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      161,
+                      419,
+                      391,
+                      419,
+                      391,
+                      434,
+                      161,
+                      434
+                    ]
+                  }
+                ],
+                "confidence": 0.982,
+                "spans": [
+                  {
+                    "offset": 341,
+                    "length": 10
+                  },
+                  {
+                    "offset": 370,
+                    "length": 7
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Erdnu\u00dfLocken 150g",
+                    "content": "Erdnu\u00dfLocken 150g",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          161,
+                          432,
+                          268,
+                          433,
+                          268,
+                          446,
+                          161,
+                          446
+                        ]
+                      }
+                    ],
+                    "confidence": 0.976,
+                    "spans": [
+                      {
+                        "offset": 352,
+                        "length": 17
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 2.19,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "2.19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          354,
+                          435,
+                          379,
+                          435,
+                          378,
+                          447,
+                          354,
+                          447
+                        ]
+                      }
+                    ],
+                    "confidence": 0.984,
+                    "spans": [
+                      {
+                        "offset": 378,
+                        "length": 4
+                      }
+                    ]
+                  }
+                },
+                "content": "Erdnu\u00dfLocken 150g\n2.19 2",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      161,
+                      433,
+                      392,
+                      433,
+                      392,
+                      447,
+                      161,
+                      447
+                    ]
+                  }
+                ],
+                "confidence": 0.979,
+                "spans": [
+                  {
+                    "offset": 352,
+                    "length": 17
+                  },
+                  {
+                    "offset": 378,
+                    "length": 6
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Erdnu\u00dfLocken 150g",
+                    "content": "Erdnu\u00dfLocken 150g",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          161,
+                          444,
+                          268,
+                          448,
+                          268,
+                          463,
+                          160,
+                          459
+                        ]
+                      }
+                    ],
+                    "confidence": 0.969,
+                    "spans": [
+                      {
+                        "offset": 385,
+                        "length": 17
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 2.19,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "2.19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          354,
+                          449,
+                          378,
+                          449,
+                          378,
+                          461,
+                          354,
+                          461
+                        ]
+                      }
+                    ],
+                    "confidence": 0.98,
+                    "spans": [
+                      {
+                        "offset": 403,
+                        "length": 4
+                      }
+                    ]
+                  }
+                },
+                "content": "Erdnu\u00dfLocken 150g\n2.19 2",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      160,
+                      447,
+                      392,
+                      447,
+                      392,
+                      461,
+                      160,
+                      461
+                    ]
+                  }
+                ],
+                "confidence": 0.974,
+                "spans": [
+                  {
+                    "offset": 385,
+                    "length": 24
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Cadbury Dairy Milk 1",
+                    "content": "Cadbury Dairy Milk 1",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          161,
+                          461,
+                          285,
+                          461,
+                          285,
+                          474,
+                          161,
+                          474
+                        ]
+                      }
+                    ],
+                    "confidence": 0.966,
+                    "spans": [
+                      {
+                        "offset": 410,
+                        "length": 20
+                      }
+                    ]
+                  },
+                  "Price": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 3.49,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "3,49",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          277,
+                          475,
+                          303,
+                          475,
+                          303,
+                          486,
+                          277,
+                          486
+                        ]
+                      }
+                    ],
+                    "confidence": 0.98,
+                    "spans": [
+                      {
+                        "offset": 435,
+                        "length": 4
+                      }
+                    ]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "#5410076541553",
+                    "content": "#5410076541553",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          160,
+                          489,
+                          249,
+                          488,
+                          249,
+                          500,
+                          160,
+                          501
+                        ]
+                      }
+                    ],
+                    "confidence": 0.962,
+                    "spans": [
+                      {
+                        "offset": 447,
+                        "length": 14
+                      }
+                    ]
+                  },
+                  "Quantity": {
+                    "type": "number",
+                    "valueNumber": 2,
+                    "content": "2",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          217,
+                          475,
+                          225,
+                          475,
+                          225,
+                          486,
+                          217,
+                          486
+                        ]
+                      }
+                    ],
+                    "confidence": 0.984,
+                    "spans": [
+                      {
+                        "offset": 431,
+                        "length": 1
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 6.98,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "6.98",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          353,
+                          475,
+                          378,
+                          475,
+                          378,
+                          487,
+                          353,
+                          487
+                        ]
+                      }
+                    ],
+                    "confidence": 0.98,
+                    "spans": [
+                      {
+                        "offset": 440,
+                        "length": 4
+                      }
+                    ]
+                  }
+                },
+                "content": "Cadbury Dairy Milk 1\n2\nX\n3,49\n6.98 2\n#5410076541553",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      160,
+                      461,
+                      392,
+                      461,
+                      392,
+                      501,
+                      160,
+                      501
+                    ]
+                  }
+                ],
+                "confidence": 0.964,
+                "spans": [
+                  {
+                    "offset": 410,
+                    "length": 51
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Swiffer SM NF 9er",
+                    "content": "Swiffer SM NF 9er",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          160,
+                          503,
+                          267,
+                          500,
+                          267,
+                          514,
+                          160,
+                          516
+                        ]
+                      }
+                    ],
+                    "confidence": 0.966,
+                    "spans": [
+                      {
+                        "offset": 475,
+                        "length": 17
+                      }
+                    ]
+                  },
+                  "TotalPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 4.99,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "4,99",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          354,
+                          502,
+                          378,
+                          502,
+                          378,
+                          514,
+                          354,
+                          513
+                        ]
+                      }
+                    ],
+                    "confidence": 0.985,
+                    "spans": [
+                      {
+                        "offset": 493,
+                        "length": 4
+                      }
+                    ]
+                  }
+                },
+                "content": "Swiffer SM NF 9er\n4,99 1",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      160,
+                      501,
+                      391,
+                      501,
+                      391,
+                      515,
+                      160,
+                      515
+                    ]
+                  }
+                ],
+                "confidence": 0.975,
+                "spans": [
+                  {
+                    "offset": 475,
+                    "length": 24
+                  }
+                ]
+              }
+            ]
+          },
+          "MerchantAddress": {
+            "type": "address",
+            "content": "Markthalle Bochum-Rienke\nRiemker Str. 13 - 44809 Bochum",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  204,
+                  216,
+                  385,
+                  224,
+                  384,
+                  250,
+                  202,
+                  242
+                ]
+              }
+            ],
+            "confidence": 0.982,
+            "spans": [
+              {
+                "offset": 61,
+                "length": 55
+              }
+            ],
+            "valueAddress": {
+              "houseNumber": "13",
+              "road": "Riemker Str.",
+              "postalCode": "44809",
+              "city": "Bochum",
+              "streetAddress": "13 Riemker Str.",
+              "house": "Markthalle Bochum-Rienke"
+            }
+          },
+          "MerchantName": {
+            "type": "string",
+            "valueString": "GLOBUS Handelshof St.Wendel GmbH & Co.KG",
+            "content": "GLOBUS Handelshof St.Wendel GmbH & Co.KG",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  174,
+                  194,
+                  416,
+                  201,
+                  415,
+                  223,
+                  174,
+                  216
+                ]
+              }
+            ],
+            "confidence": 0.957,
+            "spans": [
+              {
+                "offset": 20,
+                "length": 40
+              }
+            ]
+          },
+          "MerchantPhoneNumber": {
+            "type": "phoneNumber",
+            "valuePhoneNumber": "+49234955420",
+            "content": "0234/955420",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  287,
+                  247,
+                  354,
+                  249,
+                  353,
+                  261,
+                  287,
+                  259
+                ]
+              }
+            ],
+            "confidence": 0.984,
+            "spans": [
+              {
+                "offset": 125,
+                "length": 11
+              }
+            ]
+          },
+          "ReceiptType": {
+            "type": "string",
+            "valueString": "Supplies",
+            "confidence": 0.99
+          },
+          "Total": {
+            "type": "currency",
+            "valueCurrency": {
+              "amount": 40.92,
+              "currencyCode": "EUR"
+            },
+            "content": "40,92",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  360,
+                  543,
+                  420,
+                  543,
+                  420,
+                  565,
+                  360,
+                  564
+                ]
+              }
+            ],
+            "confidence": 0.982,
+            "spans": [
+              {
+                "offset": 536,
+                "length": 5
+              }
+            ]
+          },
+          "TransactionDate": {
+            "type": "date",
+            "valueDate": "2024-08-16",
+            "content": "16.08.24",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  193,
+                  752,
+                  244,
+                  748,
+                  245,
+                  761,
+                  194,
+                  764
+                ]
+              }
+            ],
+            "confidence": 0.984,
+            "spans": [
+              {
+                "offset": 779,
+                "length": 8
+              }
+            ]
+          },
+          "TransactionTime": {
+            "type": "time",
+            "valueTime": "12:31:00",
+            "content": "12:31 Uhr",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  357,
+                  741,
+                  410,
+                  739,
+                  410,
+                  753,
+                  357,
+                  754
+                ]
+              }
+            ],
+            "confidence": 0.982,
+            "spans": [
+              {
+                "offset": 763,
+                "length": 9
+              }
+            ]
+          }
+        },
+        "confidence": 0.989,
+        "spans": [
+          {
+            "offset": 0,
+            "length": 841
+          }
+        ]
+      }
+    ],
+    "contentFormat": "text"
+  },
+  "confidence_score": 0.989,
+  "blob_name": "multi-capture/receipt_sample_1.png"
+}

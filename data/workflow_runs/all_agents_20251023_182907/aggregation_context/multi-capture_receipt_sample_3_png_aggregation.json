@@ -1,0 +1,224 @@
+{
+  "blob_name": "multi-capture/receipt_sample_3.png",
+  "timestamp": "2025-10-23T18:33:31.499066",
+  "num_sources": 9,
+  "sources_evaluated": [
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction"
+  ],
+  "scoring_details": [
+    {
+      "source": "document_intelligence",
+      "final_score": 1.4885666666666668,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.973,
+      "extracted_fields": {
+        "merchant_name": "GLOBUS",
+        "transaction_date": "2024-08-16T12:31:08+02:00",
+        "transaction_time": "12:31",
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "document_intelligence",
+      "final_score": 1.4885666666666668,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.973,
+      "extracted_fields": {
+        "merchant_name": "GLOBUS",
+        "transaction_date": "2024-08-16T12:31:08+02:00",
+        "transaction_time": "12:31",
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "document_intelligence",
+      "final_score": 1.4885666666666668,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.973,
+      "extracted_fields": {
+        "merchant_name": "GLOBUS",
+        "transaction_date": "2024-08-16T12:31:08+02:00",
+        "transaction_time": "12:31",
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "direct_extraction",
+      "final_score": 1.4616666666666667,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.95,
+      "extracted_fields": {
+        "merchant_name": "Globus",
+        "transaction_date": "2024-08-16",
+        "transaction_time": "12:31",
+        "total_amount": 40.92,
+        "currency": "EUR",
+        "num_items": 2
+      }
+    },
+    {
+      "source": "direct_extraction",
+      "final_score": 1.4616666666666667,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.95,
+      "extracted_fields": {
+        "merchant_name": "Globus",
+        "transaction_date": "2024-08-16",
+        "transaction_time": "12:31",
+        "total_amount": 40.92,
+        "currency": "EUR",
+        "num_items": 2
+      }
+    },
+    {
+      "source": "direct_extraction",
+      "final_score": 1.4616666666666667,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.95,
+      "extracted_fields": {
+        "merchant_name": "Globus",
+        "transaction_date": "2024-08-16",
+        "transaction_time": "12:31",
+        "total_amount": 40.92,
+        "currency": "EUR",
+        "num_items": 2
+      }
+    },
+    {
+      "source": "mistral",
+      "final_score": 0.275,
+      "completeness_score": 0.0,
+      "confidence_score": 0.85,
+      "extracted_fields": {
+        "merchant_name": null,
+        "transaction_date": null,
+        "transaction_time": null,
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "mistral",
+      "final_score": 0.275,
+      "completeness_score": 0.0,
+      "confidence_score": 0.85,
+      "extracted_fields": {
+        "merchant_name": null,
+        "transaction_date": null,
+        "transaction_time": null,
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "mistral",
+      "final_score": 0.275,
+      "completeness_score": 0.0,
+      "confidence_score": 0.85,
+      "extracted_fields": {
+        "merchant_name": null,
+        "transaction_date": null,
+        "transaction_time": null,
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    }
+  ],
+  "selection_logic": {
+    "best_source": "document_intelligence",
+    "best_score": 1.4885666666666668,
+    "field_attribution": {
+      "merchant_name": "document_intelligence",
+      "transaction_date": "document_intelligence",
+      "transaction_time": "document_intelligence",
+      "total_amount": "direct_extraction",
+      "currency": "direct_extraction"
+    },
+    "item_attribution": [
+      {
+        "description": "Item 1 (7% VAT)",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Item 2 (19% VAT)",
+        "source": "direct_extraction"
+      }
+    ],
+    "merge_strategy": "highest_scoring_base_with_gap_filling"
+  },
+  "final_output": {
+    "merchant_name": "GLOBUS",
+    "transaction_date": "2024-08-16T12:31:08+02:00",
+    "transaction_time": "12:31",
+    "total_amount": 40.92,
+    "currency": "EUR",
+    "items": [
+      {
+        "description": "Item 1 (7% VAT)",
+        "price": 14.95
+      },
+      {
+        "description": "Item 2 (19% VAT)",
+        "price": 25.97
+      }
+    ],
+    "metadata": {
+      "processing_timestamp": "2025-10-23T18:33:31.496482",
+      "confidence_score": 0.973,
+      "completeness_score": 1.6666666666666667,
+      "aggregation_score": 1.4885666666666668,
+      "best_source": "document_intelligence",
+      "source_scores": {
+        "document_intelligence": 1.4885666666666668,
+        "direct_extraction": 1.4616666666666667,
+        "mistral": 0.275
+      },
+      "field_sources": {
+        "merchant_name": "document_intelligence",
+        "transaction_date": "document_intelligence",
+        "transaction_time": "document_intelligence",
+        "total_amount": "direct_extraction",
+        "currency": "direct_extraction"
+      },
+      "item_sources": [
+        {
+          "description": "Item 1 (7% VAT)",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "Item 2 (19% VAT)",
+          "source": "direct_extraction"
+        }
+      ]
+    },
+    "sources_used": [
+      "document_intelligence",
+      "mistral",
+      "direct_extraction",
+      "document_intelligence",
+      "mistral",
+      "direct_extraction",
+      "document_intelligence",
+      "mistral",
+      "direct_extraction"
+    ],
+    "blob_name": "multi-capture/receipt_sample_3.png"
+  }
+}

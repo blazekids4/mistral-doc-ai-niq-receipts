@@ -1,0 +1,122 @@
+{
+  "source": "direct_extraction",
+  "merchant_name": "Carrefour",
+  "transaction_date": "2023-08-08",
+  "transaction_time": null,
+  "total_amount": 18.91,
+  "currency": "EUR",
+  "items": [
+    {
+      "description": "Pain aux raisins",
+      "price": 1.8
+    },
+    {
+      "description": "Feuil Chene Bld Pc",
+      "price": 1.19
+    },
+    {
+      "description": "Crev 30/40",
+      "price": 1.34
+    },
+    {
+      "description": "Piment Vert",
+      "price": 1.4
+    },
+    {
+      "description": "400g Fusilli Pote",
+      "price": 1.92
+    },
+    {
+      "description": "153g Filous Tubs",
+      "price": 2.5
+    },
+    {
+      "description": "203g Baguettes Fr",
+      "price": 2.5
+    },
+    {
+      "description": "Manges Caramelise",
+      "price": 2.5
+    },
+    {
+      "description": "130g Noix Cajou Mi",
+      "price": 2.5
+    },
+    {
+      "description": "4x25cl Pago Cit Hi",
+      "price": 2.5
+    },
+    {
+      "description": "X6 Po Sec Pataprio",
+      "price": 3.29
+    },
+    {
+      "description": "Eau Demineralis 5L",
+      "price": 1.39
+    }
+  ],
+  "raw_response": {
+    "model": "gpt-4o",
+    "response": "```json\n{\n  \"merchant_name\": \"Carrefour\",\n  \"transaction_date\": \"2023-08-08\",\n  \"transaction_time\": null,\n  \"total_amount\": 18.91,\n  \"currency\": \"EUR\",\n  \"items\": [\n    {\n      \"description\": \"Pain aux raisins\",\n      \"price\": 1.80\n    },\n    {\n      \"description\": \"Feuil Chene Bld Pc\",\n      \"price\": 1.19\n    },\n    {\n      \"description\": \"Crev 30/40\",\n      \"price\": 1.34\n    },\n    {\n      \"description\": \"Piment Vert\",\n      \"price\": 1.40\n    },\n    {\n      \"description\": \"400g Fusilli Pote\",\n      \"price\": 1.92\n    },\n    {\n      \"description\": \"153g Filous Tubs\",\n      \"price\": 2.50\n    },\n    {\n      \"description\": \"203g Baguettes Fr\",\n      \"price\": 2.50\n    },\n    {\n      \"description\": \"Manges Caramelise\",\n      \"price\": 2.50\n    },\n    {\n      \"description\": \"130g Noix Cajou Mi\",\n      \"price\": 2.50\n    },\n    {\n      \"description\": \"4x25cl Pago Cit Hi\",\n      \"price\": 2.50\n    },\n    {\n      \"description\": \"X6 Po Sec Pataprio\",\n      \"price\": 3.29\n    },\n    {\n      \"description\": \"Eau Demineralis 5L\",\n      \"price\": 1.39\n    }\n  ],\n  \"confidence_level\": 0.95\n}\n```",
+    "extraction": {
+      "merchant_name": "Carrefour",
+      "transaction_date": "2023-08-08",
+      "transaction_time": null,
+      "total_amount": 18.91,
+      "currency": "EUR",
+      "items": [
+        {
+          "description": "Pain aux raisins",
+          "price": 1.8
+        },
+        {
+          "description": "Feuil Chene Bld Pc",
+          "price": 1.19
+        },
+        {
+          "description": "Crev 30/40",
+          "price": 1.34
+        },
+        {
+          "description": "Piment Vert",
+          "price": 1.4
+        },
+        {
+          "description": "400g Fusilli Pote",
+          "price": 1.92
+        },
+        {
+          "description": "153g Filous Tubs",
+          "price": 2.5
+        },
+        {
+          "description": "203g Baguettes Fr",
+          "price": 2.5
+        },
+        {
+          "description": "Manges Caramelise",
+          "price": 2.5
+        },
+        {
+          "description": "130g Noix Cajou Mi",
+          "price": 2.5
+        },
+        {
+          "description": "4x25cl Pago Cit Hi",
+          "price": 2.5
+        },
+        {
+          "description": "X6 Po Sec Pataprio",
+          "price": 3.29
+        },
+        {
+          "description": "Eau Demineralis 5L",
+          "price": 1.39
+        }
+      ],
+      "confidence_level": 0.95
+    }
+  },
+  "confidence_score": 0.95,
+  "blob_name": "multi-capture/414957_1.png"
+}

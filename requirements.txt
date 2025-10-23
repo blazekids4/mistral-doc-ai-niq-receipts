@@ -4,6 +4,8 @@ azure-identity
 python-dotenv
 azure-storage-blob
 requests
+azure-ai-documentintelligence
+pydantic
 
 opentelemetry-api 
 opentelemetry-sdk 
@@ -12,3 +14,7 @@ opentelemetry-instrumentation-requests
 
 applicationinsights
 aiohttp
+
+openai
+
+agent-framework

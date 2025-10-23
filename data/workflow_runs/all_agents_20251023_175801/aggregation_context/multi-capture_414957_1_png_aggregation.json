@@ -1,0 +1,368 @@
+{
+  "blob_name": "multi-capture/414957_1.png",
+  "timestamp": "2025-10-23T17:59:24.084407",
+  "num_sources": 9,
+  "sources_evaluated": [
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction"
+  ],
+  "scoring_details": [
+    {
+      "source": "direct_extraction",
+      "final_score": 2.1149999999999998,
+      "completeness_score": 2.6,
+      "confidence_score": 0.95,
+      "extracted_fields": {
+        "merchant_name": "Carrefour",
+        "transaction_date": "2023-08-08",
+        "transaction_time": null,
+        "total_amount": 18.91,
+        "currency": "EUR",
+        "num_items": 12
+      }
+    },
+    {
+      "source": "direct_extraction",
+      "final_score": 2.1149999999999998,
+      "completeness_score": 2.6,
+      "confidence_score": 0.95,
+      "extracted_fields": {
+        "merchant_name": "Carrefour",
+        "transaction_date": "2023-08-08",
+        "transaction_time": null,
+        "total_amount": 18.91,
+        "currency": "EUR",
+        "num_items": 12
+      }
+    },
+    {
+      "source": "direct_extraction",
+      "final_score": 2.1149999999999998,
+      "completeness_score": 2.6,
+      "confidence_score": 0.95,
+      "extracted_fields": {
+        "merchant_name": "Carrefour",
+        "transaction_date": "2023-08-08",
+        "transaction_time": null,
+        "total_amount": 18.91,
+        "currency": "EUR",
+        "num_items": 12
+      }
+    },
+    {
+      "source": "document_intelligence",
+      "final_score": 1.4948666666666668,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.994,
+      "extracted_fields": {
+        "merchant_name": "Carrefour",
+        "transaction_date": "8 08 2025",
+        "transaction_time": "09:39",
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "document_intelligence",
+      "final_score": 1.4948666666666668,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.994,
+      "extracted_fields": {
+        "merchant_name": "Carrefour",
+        "transaction_date": "8 08 2025",
+        "transaction_time": "09:39",
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "document_intelligence",
+      "final_score": 1.4948666666666668,
+      "completeness_score": 1.6666666666666667,
+      "confidence_score": 0.994,
+      "extracted_fields": {
+        "merchant_name": "Carrefour",
+        "transaction_date": "8 08 2025",
+        "transaction_time": "09:39",
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "mistral",
+      "final_score": 0.275,
+      "completeness_score": 0.0,
+      "confidence_score": 0.85,
+      "extracted_fields": {
+        "merchant_name": null,
+        "transaction_date": null,
+        "transaction_time": null,
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "mistral",
+      "final_score": 0.275,
+      "completeness_score": 0.0,
+      "confidence_score": 0.85,
+      "extracted_fields": {
+        "merchant_name": null,
+        "transaction_date": null,
+        "transaction_time": null,
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    },
+    {
+      "source": "mistral",
+      "final_score": 0.275,
+      "completeness_score": 0.0,
+      "confidence_score": 0.85,
+      "extracted_fields": {
+        "merchant_name": null,
+        "transaction_date": null,
+        "transaction_time": null,
+        "total_amount": null,
+        "currency": null,
+        "num_items": 0
+      }
+    }
+  ],
+  "selection_logic": {
+    "best_source": "direct_extraction",
+    "best_score": 2.1149999999999998,
+    "field_attribution": {
+      "merchant_name": "direct_extraction",
+      "transaction_date": "direct_extraction",
+      "transaction_time": "document_intelligence",
+      "total_amount": "direct_extraction",
+      "currency": "direct_extraction"
+    },
+    "item_attribution": [
+      {
+        "description": "Pain aux raisins",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Feuil Chene Bld Pc",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Crev 30/40",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Piment Vert",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "400G Fusilli Pote",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "15x375 Filous Tubs",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "2x206 Baguettes Fr",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Manges Caramelise",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "130G Noix Cajou Mi",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "4x25CL Pago Cit Hi",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "X6 Po Sec Pataprio",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Eau Demineralis 5L",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "20G Baguettes FR",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Mangues carmelise",
+        "source": "direct_extraction"
+      }
+    ],
+    "merge_strategy": "highest_scoring_base_with_gap_filling"
+  },
+  "final_output": {
+    "merchant_name": "Carrefour",
+    "transaction_date": "2023-08-08",
+    "transaction_time": "09:39",
+    "total_amount": 18.91,
+    "currency": "EUR",
+    "items": [
+      {
+        "description": "Pain aux raisins",
+        "price": 1.8
+      },
+      {
+        "description": "Feuil Chene Bld Pc",
+        "price": 1.19
+      },
+      {
+        "description": "Crev 30/40",
+        "price": 1.34
+      },
+      {
+        "description": "Piment Vert",
+        "price": 1.4
+      },
+      {
+        "description": "400G Fusilli Pote",
+        "price": 0.83
+      },
+      {
+        "description": "15x375 Filous Tubs",
+        "price": 2.5
+      },
+      {
+        "description": "2x206 Baguettes Fr",
+        "price": 2.5
+      },
+      {
+        "description": "Manges Caramelise",
+        "price": 2.5
+      },
+      {
+        "description": "130G Noix Cajou Mi",
+        "price": 2.5
+      },
+      {
+        "description": "4x25CL Pago Cit Hi",
+        "price": 2.5
+      },
+      {
+        "description": "X6 Po Sec Pataprio",
+        "price": 3.29
+      },
+      {
+        "description": "Eau Demineralis 5L",
+        "price": 1.39
+      },
+      {
+        "description": "20G Baguettes FR",
+        "price": 2.5
+      },
+      {
+        "description": "Mangues carmelise",
+        "price": 2.5
+      }
+    ],
+    "metadata": {
+      "processing_timestamp": "2025-10-23T17:59:24.082803",
+      "confidence_score": 0.95,
+      "completeness_score": 2.6,
+      "aggregation_score": 2.1149999999999998,
+      "best_source": "direct_extraction",
+      "source_scores": {
+        "direct_extraction": 2.1149999999999998,
+        "document_intelligence": 1.4948666666666668,
+        "mistral": 0.275
+      },
+      "field_sources": {
+        "merchant_name": "direct_extraction",
+        "transaction_date": "direct_extraction",
+        "transaction_time": "document_intelligence",
+        "total_amount": "direct_extraction",
+        "currency": "direct_extraction"
+      },
+      "item_sources": [
+        {
+          "description": "Pain aux raisins",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "Feuil Chene Bld Pc",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "Crev 30/40",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "Piment Vert",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "400G Fusilli Pote",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "15x375 Filous Tubs",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "2x206 Baguettes Fr",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "Manges Caramelise",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "130G Noix Cajou Mi",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "4x25CL Pago Cit Hi",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "X6 Po Sec Pataprio",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "Eau Demineralis 5L",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "20G Baguettes FR",
+          "source": "direct_extraction"
+        },
+        {
+          "description": "Mangues carmelise",
+          "source": "direct_extraction"
+        }
+      ]
+    },
+    "sources_used": [
+      "document_intelligence",
+      "mistral",
+      "direct_extraction",
+      "document_intelligence",
+      "mistral",
+      "direct_extraction",
+      "document_intelligence",
+      "mistral",
+      "direct_extraction"
+    ],
+    "blob_name": "multi-capture/414957_1.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "images": [],
+      "markdown": "# Carrefour\n\nP. VILLAGE-DES VILADES 15, 25 27 11 09 79\n\nVall\u00e9e 1, 15 25 27 11 09 79 0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "dimensions": {
+        "dpi": 200,
+        "height": 5509,
+        "width": 1444
+      }
+    }
+  ],
+  "model": "mistral-document-ai-2505",
+  "document_annotation": null,
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 1170712,
+    "pages_processed_annotation": 0
+  },
+  "content_filter_results": null
+}

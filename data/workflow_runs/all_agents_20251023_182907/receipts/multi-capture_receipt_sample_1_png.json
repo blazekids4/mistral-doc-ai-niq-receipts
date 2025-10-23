@@ -1,0 +1,106 @@
+{
+  "merchant_name": "Globus",
+  "transaction_date": "2023-08-24",
+  "transaction_time": "12:31",
+  "total_amount": 40.92,
+  "currency": "EUR",
+  "items": [
+    {
+      "description": "Zeitschriften",
+      "price": 1.3
+    },
+    {
+      "description": "Microfaser Colors 14",
+      "price": 2.99
+    },
+    {
+      "description": "Fruchtquark 500 g",
+      "price": 2.29
+    },
+    {
+      "description": "Ersatzkopf",
+      "price": 10.99
+    },
+    {
+      "description": "Erdnusslocken 150g",
+      "price": 1.99
+    },
+    {
+      "description": "Cadbury Dairy Milk",
+      "price": 3.49
+    },
+    {
+      "description": "Swiffer 5M NF 3er",
+      "price": 4.91
+    },
+    {
+      "description": "Swiffer SM NF 3er",
+      "price": 4.99
+    }
+  ],
+  "metadata": {
+    "processing_timestamp": "2025-10-23T18:32:04.886127",
+    "confidence_score": 0.95,
+    "completeness_score": 2.1666666666666665,
+    "aggregation_score": 1.8116666666666663,
+    "best_source": "direct_extraction",
+    "source_scores": {
+      "direct_extraction": 1.8116666666666663,
+      "document_intelligence": 1.4933666666666667,
+      "mistral": 0.275
+    },
+    "field_sources": {
+      "merchant_name": "direct_extraction",
+      "transaction_date": "direct_extraction",
+      "transaction_time": "direct_extraction",
+      "total_amount": "direct_extraction",
+      "currency": "direct_extraction"
+    },
+    "item_sources": [
+      {
+        "description": "Zeitschriften",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Microfaser Colors 14",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Fruchtquark 500 g",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Ersatzkopf",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Erdnusslocken 150g",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Cadbury Dairy Milk",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Swiffer 5M NF 3er",
+        "source": "direct_extraction"
+      },
+      {
+        "description": "Swiffer SM NF 3er",
+        "source": "direct_extraction"
+      }
+    ]
+  },
+  "sources_used": [
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction",
+    "document_intelligence",
+    "mistral",
+    "direct_extraction"
+  ],
+  "blob_name": "multi-capture/receipt_sample_1.png"
+}

@@ -1,0 +1,3429 @@
+{
+  "source": "document_intelligence",
+  "merchant_name": "GLOBUS",
+  "transaction_date": "2024-08-16T12:31:08+02:00",
+  "transaction_time": "12:31",
+  "total_amount": null,
+  "currency": null,
+  "items": [],
+  "raw_response": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-receipt",
+    "stringIndexType": "textElements",
+    "content": "AS-Proc-Code = 00 075 00\nCapt .- Ref .= 0000\nAPPROVED\nBITTE BELEG AUFBEWAHREN\nUST\n2 = 7%\nNetto\nSteuer\n13,97\nBrutto\n1 = 19%\n0,98\n21,82\n14.95\n4.15\n25,97\nTSE S/N: E5BE40277BCF2A08691CD4E8149B433\nOC64E01080F1557B8A4571350164E171A\nTSE Transaktions-Nummer: 102036\nTSE Start:\nTSE Ende:\n2024-08-16T12:31:08+02:00\nTSE Signatur Z\u00e4hler:\n2024-08-16T12:31:49+02:00\nTSE Signatur:\n517801\n4244D9B1C71316AF51290FEC\n57EFCCAAA001B61042778F847F6618A5E2045644\n97EA9ED7326DC9ED8D7A888DD9A7659C31B58517\nCadbury DP\nE04F234FECB92F82DC8COC515E00DE9D2DOAB1C7\nBC1E9B54F244E9128ACEED52B84F6C320F6FD82B\nFOFBAE10\nBury\nRACCO\nS\nPOS S/N: 000000001750293852\n53R0721586\nIhre PAYBACK Kartennr: XXXXXXXXXX1232\nAIR\nPunktestand vor Einkauf: 3277\nDieser Punktestand entspricht: 32.77 EUR\nF\u00fcr diesen Einkauf erhalten Sie von GLOBUS\nPAYBACK Punkte auf punktef\u00e4hige Artikel\n19\u00b0P\nLK\nBasis-Punkte\nDatum\nZeit Filial Ka. Bed Bon\n16.08.24 12:31 1078 4 55 2038\nCadbury\n660001078000040000203820240816123044\nbury",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0.9079821109771729,
+        "width": 600,
+        "height": 800,
+        "unit": "pixel",
+        "words": [
+          {
+            "content": "AS-Proc-Code",
+            "polygon": [
+              144,
+              4,
+              234,
+              8,
+              233,
+              23,
+              143,
+              18
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 0,
+              "length": 12
+            }
+          },
+          {
+            "content": "=",
+            "polygon": [
+              242,
+              9,
+              248,
+              9,
+              247,
+              23,
+              241,
+              23
+            ],
+            "confidence": 0.985,
+            "span": {
+              "offset": 13,
+              "length": 1
+            }
+          },
+          {
+            "content": "00",
+            "polygon": [
+              256,
+              9,
+              270,
+              10,
+              270,
+              25,
+              255,
+              24
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 15,
+              "length": 2
+            }
+          },
+          {
+            "content": "075",
+            "polygon": [
+              278,
+              10,
+              300,
+              12,
+              299,
+              26,
+              277,
+              25
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 18,
+              "length": 3
+            }
+          },
+          {
+            "content": "00",
+            "polygon": [
+              307,
+              12,
+              323,
+              13,
+              323,
+              28,
+              306,
+              27
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 22,
+              "length": 2
+            }
+          },
+          {
+            "content": "Capt",
+            "polygon": [
+              143,
+              20,
+              171,
+              21,
+              171,
+              36,
+              143,
+              35
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 25,
+              "length": 4
+            }
+          },
+          {
+            "content": ".-",
+            "polygon": [
+              174,
+              21,
+              184,
+              22,
+              184,
+              37,
+              174,
+              36
+            ],
+            "confidence": 0.943,
+            "span": {
+              "offset": 30,
+              "length": 2
+            }
+          },
+          {
+            "content": "Ref",
+            "polygon": [
+              187,
+              22,
+              210,
+              23,
+              210,
+              38,
+              186,
+              37
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 33,
+              "length": 3
+            }
+          },
+          {
+            "content": ".=",
+            "polygon": [
+              214,
+              23,
+              225,
+              24,
+              225,
+              38,
+              213,
+              38
+            ],
+            "confidence": 0.69,
+            "span": {
+              "offset": 37,
+              "length": 2
+            }
+          },
+          {
+            "content": "0000",
+            "polygon": [
+              234,
+              24,
+              265,
+              26,
+              265,
+              41,
+              233,
+              39
+            ],
+            "confidence": 0.99,
+            "span": {
+              "offset": 40,
+              "length": 4
+            }
+          },
+          {
+            "content": "APPROVED",
+            "polygon": [
+              144,
+              36,
+              206,
+              39,
+              205,
+              53,
+              143,
+              51
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 45,
+              "length": 8
+            }
+          },
+          {
+            "content": "BITTE",
+            "polygon": [
+              210,
+              73,
+              248,
+              75,
+              247,
+              90,
+              209,
+              88
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 54,
+              "length": 5
+            }
+          },
+          {
+            "content": "BELEG",
+            "polygon": [
+              256,
+              75,
+              292,
+              77,
+              292,
+              92,
+              255,
+              90
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 60,
+              "length": 5
+            }
+          },
+          {
+            "content": "AUFBEWAHREN",
+            "polygon": [
+              300,
+              77,
+              381,
+              81,
+              380,
+              96,
+              299,
+              92
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 66,
+              "length": 11
+            }
+          },
+          {
+            "content": "UST",
+            "polygon": [
+              156,
+              135,
+              181,
+              135,
+              181,
+              150,
+              155,
+              149
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 78,
+              "length": 3
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              156,
+              152,
+              164,
+              152,
+              164,
+              166,
+              156,
+              165
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 82,
+              "length": 1
+            }
+          },
+          {
+            "content": "=",
+            "polygon": [
+              173,
+              152,
+              179,
+              152,
+              179,
+              166,
+              173,
+              166
+            ],
+            "confidence": 0.692,
+            "span": {
+              "offset": 84,
+              "length": 1
+            }
+          },
+          {
+            "content": "7%",
+            "polygon": [
+              197,
+              153,
+              212,
+              154,
+              212,
+              168,
+              196,
+              167
+            ],
+            "confidence": 0.956,
+            "span": {
+              "offset": 86,
+              "length": 2
+            }
+          },
+          {
+            "content": "Netto",
+            "polygon": [
+              247,
+              140,
+              287,
+              142,
+              287,
+              155,
+              246,
+              153
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 89,
+              "length": 5
+            }
+          },
+          {
+            "content": "Steuer",
+            "polygon": [
+              298,
+              142,
+              343,
+              144,
+              343,
+              157,
+              298,
+              155
+            ],
+            "confidence": 0.975,
+            "span": {
+              "offset": 95,
+              "length": 6
+            }
+          },
+          {
+            "content": "13,97",
+            "polygon": [
+              248,
+              157,
+              287,
+              158,
+              287,
+              172,
+              248,
+              170
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 102,
+              "length": 5
+            }
+          },
+          {
+            "content": "Brutto",
+            "polygon": [
+              363,
+              145,
+              408,
+              147,
+              408,
+              160,
+              363,
+              158
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 108,
+              "length": 6
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              157,
+              168,
+              163,
+              168,
+              163,
+              182,
+              156,
+              182
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 115,
+              "length": 1
+            }
+          },
+          {
+            "content": "=",
+            "polygon": [
+              173,
+              168,
+              179,
+              169,
+              179,
+              183,
+              173,
+              183
+            ],
+            "confidence": 0.906,
+            "span": {
+              "offset": 117,
+              "length": 1
+            }
+          },
+          {
+            "content": "19%",
+            "polygon": [
+              189,
+              169,
+              212,
+              170,
+              212,
+              185,
+              188,
+              184
+            ],
+            "confidence": 0.986,
+            "span": {
+              "offset": 119,
+              "length": 3
+            }
+          },
+          {
+            "content": "0,98",
+            "polygon": [
+              313,
+              159,
+              344,
+              160,
+              344,
+              173,
+              313,
+              172
+            ],
+            "confidence": 0.976,
+            "span": {
+              "offset": 123,
+              "length": 4
+            }
+          },
+          {
+            "content": "21,82",
+            "polygon": [
+              247,
+              173,
+              287,
+              174,
+              286,
+              188,
+              247,
+              186
+            ],
+            "confidence": 0.94,
+            "span": {
+              "offset": 128,
+              "length": 5
+            }
+          },
+          {
+            "content": "14.95",
+            "polygon": [
+              372,
+              161,
+              408,
+              162,
+              408,
+              175,
+              372,
+              174
+            ],
+            "confidence": 0.783,
+            "span": {
+              "offset": 134,
+              "length": 5
+            }
+          },
+          {
+            "content": "4.15",
+            "polygon": [
+              313,
+              175,
+              345,
+              175,
+              345,
+              189,
+              313,
+              188
+            ],
+            "confidence": 0.652,
+            "span": {
+              "offset": 140,
+              "length": 4
+            }
+          },
+          {
+            "content": "25,97",
+            "polygon": [
+              371,
+              177,
+              408,
+              178,
+              408,
+              192,
+              371,
+              191
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 145,
+              "length": 5
+            }
+          },
+          {
+            "content": "TSE",
+            "polygon": [
+              140,
+              198,
+              164,
+              199,
+              163,
+              215,
+              139,
+              213
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 151,
+              "length": 3
+            }
+          },
+          {
+            "content": "S/N:",
+            "polygon": [
+              172,
+              200,
+              200,
+              201,
+              200,
+              217,
+              172,
+              215
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 155,
+              "length": 4
+            }
+          },
+          {
+            "content": "E5BE40277BCF2A08691CD4E8149B433",
+            "polygon": [
+              210,
+              202,
+              438,
+              211,
+              438,
+              226,
+              209,
+              217
+            ],
+            "confidence": 0.868,
+            "span": {
+              "offset": 160,
+              "length": 31
+            }
+          },
+          {
+            "content": "OC64E01080F1557B8A4571350164E171A",
+            "polygon": [
+              139,
+              215,
+              388,
+              226,
+              388,
+              240,
+              138,
+              229
+            ],
+            "confidence": 0.896,
+            "span": {
+              "offset": 192,
+              "length": 33
+            }
+          },
+          {
+            "content": "TSE",
+            "polygon": [
+              139,
+              232,
+              163,
+              233,
+              163,
+              247,
+              139,
+              246
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 226,
+              "length": 3
+            }
+          },
+          {
+            "content": "Transaktions-Nummer:",
+            "polygon": [
+              172,
+              233,
+              320,
+              240,
+              320,
+              254,
+              171,
+              248
+            ],
+            "confidence": 0.952,
+            "span": {
+              "offset": 230,
+              "length": 20
+            }
+          },
+          {
+            "content": "102036",
+            "polygon": [
+              338,
+              241,
+              382,
+              242,
+              382,
+              256,
+              338,
+              255
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 251,
+              "length": 6
+            }
+          },
+          {
+            "content": "TSE",
+            "polygon": [
+              139,
+              248,
+              163,
+              249,
+              162,
+              263,
+              138,
+              262
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 258,
+              "length": 3
+            }
+          },
+          {
+            "content": "Start:",
+            "polygon": [
+              171,
+              250,
+              218,
+              253,
+              217,
+              267,
+              171,
+              264
+            ],
+            "confidence": 0.982,
+            "span": {
+              "offset": 262,
+              "length": 6
+            }
+          },
+          {
+            "content": "TSE",
+            "polygon": [
+              138,
+              264,
+              163,
+              266,
+              162,
+              280,
+              138,
+              279
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 269,
+              "length": 3
+            }
+          },
+          {
+            "content": "Ende:",
+            "polygon": [
+              171,
+              266,
+              210,
+              268,
+              209,
+              283,
+              170,
+              280
+            ],
+            "confidence": 0.966,
+            "span": {
+              "offset": 273,
+              "length": 5
+            }
+          },
+          {
+            "content": "2024-08-16T12:31:08+02:00",
+            "polygon": [
+              240,
+              254,
+              424,
+              258,
+              424,
+              273,
+              239,
+              268
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 279,
+              "length": 25
+            }
+          },
+          {
+            "content": "TSE",
+            "polygon": [
+              138,
+              282,
+              163,
+              283,
+              162,
+              298,
+              137,
+              297
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 305,
+              "length": 3
+            }
+          },
+          {
+            "content": "Signatur",
+            "polygon": [
+              171,
+              284,
+              232,
+              286,
+              232,
+              301,
+              170,
+              299
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 309,
+              "length": 8
+            }
+          },
+          {
+            "content": "Z\u00e4hler:",
+            "polygon": [
+              240,
+              286,
+              293,
+              288,
+              292,
+              302,
+              240,
+              301
+            ],
+            "confidence": 0.793,
+            "span": {
+              "offset": 318,
+              "length": 7
+            }
+          },
+          {
+            "content": "2024-08-16T12:31:49+02:00",
+            "polygon": [
+              240,
+              269,
+              425,
+              275,
+              425,
+              289,
+              239,
+              284
+            ],
+            "confidence": 0.95,
+            "span": {
+              "offset": 326,
+              "length": 25
+            }
+          },
+          {
+            "content": "TSE",
+            "polygon": [
+              138,
+              300,
+              163,
+              301,
+              162,
+              315,
+              137,
+              314
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 352,
+              "length": 3
+            }
+          },
+          {
+            "content": "Signatur:",
+            "polygon": [
+              170,
+              301,
+              240,
+              304,
+              239,
+              319,
+              170,
+              316
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 356,
+              "length": 9
+            }
+          },
+          {
+            "content": "517801",
+            "polygon": [
+              336,
+              289,
+              381,
+              290,
+              381,
+              303,
+              336,
+              303
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 366,
+              "length": 6
+            }
+          },
+          {
+            "content": "4244D9B1C71316AF51290FEC",
+            "polygon": [
+              263,
+              303,
+              441,
+              306,
+              441,
+              320,
+              263,
+              317
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 373,
+              "length": 24
+            }
+          },
+          {
+            "content": "57EFCCAAA001B61042778F847F6618A5E2045644",
+            "polygon": [
+              137,
+              317,
+              441,
+              322,
+              441,
+              337,
+              137,
+              332
+            ],
+            "confidence": 0.882,
+            "span": {
+              "offset": 398,
+              "length": 40
+            }
+          },
+          {
+            "content": "97EA9ED7326DC9ED8D7A888DD9A7659C31B58517",
+            "polygon": [
+              137,
+              334,
+              441,
+              338,
+              441,
+              353,
+              136,
+              349
+            ],
+            "confidence": 0.472,
+            "span": {
+              "offset": 439,
+              "length": 40
+            }
+          },
+          {
+            "content": "Cadbury",
+            "polygon": [
+              481,
+              339,
+              557,
+              338,
+              557,
+              357,
+              481,
+              356
+            ],
+            "confidence": 0.619,
+            "span": {
+              "offset": 480,
+              "length": 7
+            }
+          },
+          {
+            "content": "DP",
+            "polygon": [
+              571,
+              338,
+              599,
+              338,
+              599,
+              357,
+              571,
+              357
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 488,
+              "length": 2
+            }
+          },
+          {
+            "content": "E04F234FECB92F82DC8COC515E00DE9D2DOAB1C7",
+            "polygon": [
+              136,
+              352,
+              442,
+              355,
+              442,
+              370,
+              136,
+              367
+            ],
+            "confidence": 0.414,
+            "span": {
+              "offset": 491,
+              "length": 40
+            }
+          },
+          {
+            "content": "BC1E9B54F244E9128ACEED52B84F6C320F6FD82B",
+            "polygon": [
+              136,
+              369,
+              442,
+              371,
+              442,
+              386,
+              136,
+              384
+            ],
+            "confidence": 0.951,
+            "span": {
+              "offset": 532,
+              "length": 40
+            }
+          },
+          {
+            "content": "FOFBAE10",
+            "polygon": [
+              136,
+              386,
+              203,
+              387,
+              203,
+              402,
+              136,
+              401
+            ],
+            "confidence": 0.99,
+            "span": {
+              "offset": 573,
+              "length": 8
+            }
+          },
+          {
+            "content": "Bury",
+            "polygon": [
+              483,
+              388,
+              577,
+              386,
+              577,
+              437,
+              483,
+              437
+            ],
+            "confidence": 0.852,
+            "span": {
+              "offset": 582,
+              "length": 4
+            }
+          },
+          {
+            "content": "RACCO",
+            "polygon": [
+              34,
+              394,
+              2,
+              394,
+              2,
+              387,
+              33,
+              386
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 587,
+              "length": 5
+            }
+          },
+          {
+            "content": "S",
+            "polygon": [
+              4,
+              409,
+              20,
+              409,
+              20,
+              422,
+              4,
+              424
+            ],
+            "confidence": 0.305,
+            "span": {
+              "offset": 593,
+              "length": 1
+            }
+          },
+          {
+            "content": "POS",
+            "polygon": [
+              135,
+              404,
+              161,
+              404,
+              161,
+              420,
+              135,
+              419
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 595,
+              "length": 3
+            }
+          },
+          {
+            "content": "S/N:",
+            "polygon": [
+              170,
+              404,
+              198,
+              404,
+              198,
+              420,
+              170,
+              420
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 599,
+              "length": 4
+            }
+          },
+          {
+            "content": "000000001750293852",
+            "polygon": [
+              209,
+              404,
+              348,
+              404,
+              348,
+              419,
+              209,
+              420
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 604,
+              "length": 18
+            }
+          },
+          {
+            "content": "53R0721586",
+            "polygon": [
+              367,
+              404,
+              445,
+              404,
+              445,
+              419,
+              367,
+              419
+            ],
+            "confidence": 0.986,
+            "span": {
+              "offset": 623,
+              "length": 10
+            }
+          },
+          {
+            "content": "Ihre",
+            "polygon": [
+              135,
+              440,
+              169,
+              439,
+              169,
+              455,
+              135,
+              455
+            ],
+            "confidence": 0.975,
+            "span": {
+              "offset": 634,
+              "length": 4
+            }
+          },
+          {
+            "content": "PAYBACK",
+            "polygon": [
+              177,
+              439,
+              232,
+              439,
+              232,
+              455,
+              177,
+              455
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 639,
+              "length": 7
+            }
+          },
+          {
+            "content": "Kartennr:",
+            "polygon": [
+              240,
+              439,
+              310,
+              438,
+              310,
+              454,
+              240,
+              455
+            ],
+            "confidence": 0.947,
+            "span": {
+              "offset": 647,
+              "length": 9
+            }
+          },
+          {
+            "content": "XXXXXXXXXX1232",
+            "polygon": [
+              316,
+              438,
+              424,
+              438,
+              424,
+              453,
+              316,
+              454
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 657,
+              "length": 14
+            }
+          },
+          {
+            "content": "AIR",
+            "polygon": [
+              488,
+              442,
+              599,
+              443,
+              599,
+              519,
+              488,
+              515
+            ],
+            "confidence": 0.574,
+            "span": {
+              "offset": 672,
+              "length": 3
+            }
+          },
+          {
+            "content": "Punktestand",
+            "polygon": [
+              135,
+              458,
+              224,
+              457,
+              224,
+              473,
+              135,
+              474
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 676,
+              "length": 11
+            }
+          },
+          {
+            "content": "vor",
+            "polygon": [
+              232,
+              457,
+              255,
+              457,
+              255,
+              472,
+              232,
+              473
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 688,
+              "length": 3
+            }
+          },
+          {
+            "content": "Einkauf:",
+            "polygon": [
+              263,
+              456,
+              322,
+              456,
+              322,
+              471,
+              263,
+              472
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 692,
+              "length": 8
+            }
+          },
+          {
+            "content": "3277",
+            "polygon": [
+              329,
+              456,
+              363,
+              455,
+              363,
+              471,
+              329,
+              471
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 701,
+              "length": 4
+            }
+          },
+          {
+            "content": "Dieser",
+            "polygon": [
+              135,
+              476,
+              184,
+              475,
+              184,
+              491,
+              135,
+              492
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 706,
+              "length": 6
+            }
+          },
+          {
+            "content": "Punktestand",
+            "polygon": [
+              192,
+              475,
+              278,
+              474,
+              278,
+              490,
+              192,
+              491
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 713,
+              "length": 11
+            }
+          },
+          {
+            "content": "entspricht:",
+            "polygon": [
+              286,
+              474,
+              367,
+              472,
+              368,
+              489,
+              286,
+              490
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 725,
+              "length": 11
+            }
+          },
+          {
+            "content": "32.77",
+            "polygon": [
+              377,
+              472,
+              415,
+              472,
+              416,
+              488,
+              378,
+              489
+            ],
+            "confidence": 0.91,
+            "span": {
+              "offset": 737,
+              "length": 5
+            }
+          },
+          {
+            "content": "EUR",
+            "polygon": [
+              423,
+              472,
+              448,
+              471,
+              448,
+              487,
+              423,
+              488
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 743,
+              "length": 3
+            }
+          },
+          {
+            "content": "F\u00fcr",
+            "polygon": [
+              134,
+              495,
+              160,
+              494,
+              160,
+              510,
+              134,
+              511
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 747,
+              "length": 3
+            }
+          },
+          {
+            "content": "diesen",
+            "polygon": [
+              168,
+              494,
+              216,
+              493,
+              216,
+              509,
+              169,
+              510
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 751,
+              "length": 6
+            }
+          },
+          {
+            "content": "Einkauf",
+            "polygon": [
+              224,
+              492,
+              277,
+              491,
+              278,
+              508,
+              224,
+              509
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 758,
+              "length": 7
+            }
+          },
+          {
+            "content": "erhalten",
+            "polygon": [
+              286,
+              491,
+              347,
+              490,
+              347,
+              507,
+              286,
+              508
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 766,
+              "length": 8
+            }
+          },
+          {
+            "content": "Sie",
+            "polygon": [
+              355,
+              490,
+              378,
+              490,
+              378,
+              506,
+              356,
+              506
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 775,
+              "length": 3
+            }
+          },
+          {
+            "content": "von",
+            "polygon": [
+              386,
+              490,
+              409,
+              489,
+              409,
+              505,
+              386,
+              506
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 779,
+              "length": 3
+            }
+          },
+          {
+            "content": "GLOBUS",
+            "polygon": [
+              416,
+              489,
+              464,
+              488,
+              464,
+              505,
+              416,
+              505
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 783,
+              "length": 6
+            }
+          },
+          {
+            "content": "PAYBACK",
+            "polygon": [
+              134,
+              512,
+              192,
+              511,
+              192,
+              528,
+              134,
+              529
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 790,
+              "length": 7
+            }
+          },
+          {
+            "content": "Punkte",
+            "polygon": [
+              200,
+              511,
+              247,
+              510,
+              247,
+              526,
+              200,
+              527
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 798,
+              "length": 6
+            }
+          },
+          {
+            "content": "auf",
+            "polygon": [
+              255,
+              510,
+              277,
+              509,
+              278,
+              526,
+              255,
+              526
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 805,
+              "length": 3
+            }
+          },
+          {
+            "content": "punktef\u00e4hige",
+            "polygon": [
+              286,
+              509,
+              378,
+              507,
+              378,
+              524,
+              286,
+              526
+            ],
+            "confidence": 0.617,
+            "span": {
+              "offset": 809,
+              "length": 12
+            }
+          },
+          {
+            "content": "Artikel",
+            "polygon": [
+              386,
+              507,
+              440,
+              507,
+              440,
+              523,
+              386,
+              524
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 822,
+              "length": 7
+            }
+          },
+          {
+            "content": "19\u00b0P",
+            "polygon": [
+              417,
+              525,
+              449,
+              525,
+              449,
+              540,
+              417,
+              540
+            ],
+            "confidence": 0.808,
+            "span": {
+              "offset": 830,
+              "length": 4
+            }
+          },
+          {
+            "content": "LK",
+            "polygon": [
+              493,
+              521,
+              599,
+              520,
+              599,
+              597,
+              493,
+              597
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 835,
+              "length": 2
+            }
+          },
+          {
+            "content": "Basis-Punkte",
+            "polygon": [
+              133,
+              533,
+              233,
+              529,
+              234,
+              544,
+              134,
+              548
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 838,
+              "length": 12
+            }
+          },
+          {
+            "content": "Datum",
+            "polygon": [
+              133,
+              552,
+              177,
+              551,
+              178,
+              565,
+              134,
+              567
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 851,
+              "length": 5
+            }
+          },
+          {
+            "content": "Zeit",
+            "polygon": [
+              215,
+              546,
+              246,
+              545,
+              247,
+              561,
+              216,
+              562
+            ],
+            "confidence": 0.96,
+            "span": {
+              "offset": 857,
+              "length": 4
+            }
+          },
+          {
+            "content": "Filial",
+            "polygon": [
+              255,
+              545,
+              299,
+              544,
+              299,
+              561,
+              255,
+              561
+            ],
+            "confidence": 0.99,
+            "span": {
+              "offset": 862,
+              "length": 6
+            }
+          },
+          {
+            "content": "Ka.",
+            "polygon": [
+              309,
+              544,
+              330,
+              544,
+              330,
+              560,
+              310,
+              560
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 869,
+              "length": 3
+            }
+          },
+          {
+            "content": "Bed",
+            "polygon": [
+              348,
+              543,
+              371,
+              543,
+              371,
+              560,
+              348,
+              560
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 873,
+              "length": 3
+            }
+          },
+          {
+            "content": "Bon",
+            "polygon": [
+              394,
+              543,
+              420,
+              543,
+              420,
+              559,
+              395,
+              559
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 877,
+              "length": 3
+            }
+          },
+          {
+            "content": "16.08.24",
+            "polygon": [
+              134,
+              570,
+              199,
+              565,
+              200,
+              582,
+              135,
+              586
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 881,
+              "length": 8
+            }
+          },
+          {
+            "content": "12:31",
+            "polygon": [
+              209,
+              565,
+              246,
+              563,
+              247,
+              580,
+              210,
+              582
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 890,
+              "length": 5
+            }
+          },
+          {
+            "content": "1078",
+            "polygon": [
+              272,
+              563,
+              301,
+              562,
+              302,
+              578,
+              272,
+              579
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 896,
+              "length": 4
+            }
+          },
+          {
+            "content": "4",
+            "polygon": [
+              325,
+              562,
+              332,
+              561,
+              333,
+              577,
+              326,
+              578
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 901,
+              "length": 1
+            }
+          },
+          {
+            "content": "55",
+            "polygon": [
+              356,
+              561,
+              372,
+              561,
+              372,
+              577,
+              356,
+              577
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 903,
+              "length": 2
+            }
+          },
+          {
+            "content": "2038",
+            "polygon": [
+              387,
+              560,
+              421,
+              560,
+              421,
+              575,
+              388,
+              576
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 906,
+              "length": 4
+            }
+          },
+          {
+            "content": "Cadbury",
+            "polygon": [
+              496,
+              632,
+              597,
+              633,
+              597,
+              669,
+              496,
+              669
+            ],
+            "confidence": 0.701,
+            "span": {
+              "offset": 911,
+              "length": 7
+            }
+          },
+          {
+            "content": "660001078000040000203820240816123044",
+            "polygon": [
+              175,
+              654,
+              462,
+              641,
+              462,
+              656,
+              176,
+              668
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 919,
+              "length": 36
+            }
+          },
+          {
+            "content": "bury",
+            "polygon": [
+              495,
+              698,
+              599,
+              699,
+              599,
+              728,
+              495,
+              728
+            ],
+            "confidence": 0.867,
+            "span": {
+              "offset": 956,
+              "length": 4
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "AS-Proc-Code = 00 075 00",
+            "polygon": [
+              144,
+              3,
+              323,
+              13,
+              322,
+              27,
+              143,
+              18
+            ],
+            "spans": [
+              {
+                "offset": 0,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "content": "Capt .- Ref .= 0000",
+            "polygon": [
+              143,
+              20,
+              265,
+              25,
+              264,
+              40,
+              143,
+              35
+            ],
+            "spans": [
+              {
+                "offset": 25,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "content": "APPROVED",
+            "polygon": [
+              144,
+              36,
+              205,
+              39,
+              205,
+              53,
+              143,
+              51
+            ],
+            "spans": [
+              {
+                "offset": 45,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "BITTE BELEG AUFBEWAHREN",
+            "polygon": [
+              210,
+              73,
+              381,
+              81,
+              380,
+              96,
+              209,
+              88
+            ],
+            "spans": [
+              {
+                "offset": 54,
+                "length": 23
+              }
+            ]
+          },
+          {
+            "content": "UST",
+            "polygon": [
+              156,
+              135,
+              180,
+              135,
+              180,
+              150,
+              155,
+              149
+            ],
+            "spans": [
+              {
+                "offset": 78,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "2 = 7%",
+            "polygon": [
+              156,
+              151,
+              212,
+              153,
+              211,
+              168,
+              156,
+              166
+            ],
+            "spans": [
+              {
+                "offset": 82,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Netto",
+            "polygon": [
+              247,
+              140,
+              286,
+              142,
+              286,
+              155,
+              246,
+              153
+            ],
+            "spans": [
+              {
+                "offset": 89,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "Steuer",
+            "polygon": [
+              298,
+              142,
+              343,
+              144,
+              342,
+              157,
+              298,
+              155
+            ],
+            "spans": [
+              {
+                "offset": 95,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "13,97",
+            "polygon": [
+              248,
+              156,
+              286,
+              158,
+              286,
+              171,
+              248,
+              170
+            ],
+            "spans": [
+              {
+                "offset": 102,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "Brutto",
+            "polygon": [
+              363,
+              145,
+              408,
+              147,
+              408,
+              160,
+              362,
+              158
+            ],
+            "spans": [
+              {
+                "offset": 108,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "1 = 19%",
+            "polygon": [
+              157,
+              168,
+              212,
+              170,
+              211,
+              185,
+              156,
+              182
+            ],
+            "spans": [
+              {
+                "offset": 115,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "0,98",
+            "polygon": [
+              313,
+              159,
+              344,
+              160,
+              344,
+              173,
+              313,
+              172
+            ],
+            "spans": [
+              {
+                "offset": 123,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "21,82",
+            "polygon": [
+              247,
+              172,
+              287,
+              174,
+              286,
+              187,
+              247,
+              186
+            ],
+            "spans": [
+              {
+                "offset": 128,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "14.95",
+            "polygon": [
+              372,
+              161,
+              408,
+              162,
+              408,
+              175,
+              371,
+              174
+            ],
+            "spans": [
+              {
+                "offset": 134,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "4.15",
+            "polygon": [
+              313,
+              175,
+              344,
+              175,
+              344,
+              189,
+              313,
+              188
+            ],
+            "spans": [
+              {
+                "offset": 140,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "25,97",
+            "polygon": [
+              371,
+              177,
+              408,
+              178,
+              407,
+              192,
+              371,
+              191
+            ],
+            "spans": [
+              {
+                "offset": 145,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "TSE S/N: E5BE40277BCF2A08691CD4E8149B433",
+            "polygon": [
+              140,
+              198,
+              438,
+              211,
+              437,
+              226,
+              139,
+              214
+            ],
+            "spans": [
+              {
+                "offset": 151,
+                "length": 40
+              }
+            ]
+          },
+          {
+            "content": "OC64E01080F1557B8A4571350164E171A",
+            "polygon": [
+              139,
+              215,
+              388,
+              226,
+              387,
+              241,
+              138,
+              231
+            ],
+            "spans": [
+              {
+                "offset": 192,
+                "length": 33
+              }
+            ]
+          },
+          {
+            "content": "TSE Transaktions-Nummer: 102036",
+            "polygon": [
+              139,
+              232,
+              382,
+              242,
+              381,
+              256,
+              139,
+              247
+            ],
+            "spans": [
+              {
+                "offset": 226,
+                "length": 31
+              }
+            ]
+          },
+          {
+            "content": "TSE Start:",
+            "polygon": [
+              139,
+              248,
+              218,
+              253,
+              217,
+              267,
+              138,
+              262
+            ],
+            "spans": [
+              {
+                "offset": 258,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "TSE Ende:",
+            "polygon": [
+              138,
+              264,
+              210,
+              268,
+              209,
+              283,
+              137,
+              279
+            ],
+            "spans": [
+              {
+                "offset": 269,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "2024-08-16T12:31:08+02:00",
+            "polygon": [
+              240,
+              254,
+              424,
+              258,
+              424,
+              273,
+              239,
+              268
+            ],
+            "spans": [
+              {
+                "offset": 279,
+                "length": 25
+              }
+            ]
+          },
+          {
+            "content": "TSE Signatur Z\u00e4hler:",
+            "polygon": [
+              138,
+              282,
+              292,
+              288,
+              292,
+              303,
+              137,
+              298
+            ],
+            "spans": [
+              {
+                "offset": 305,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "2024-08-16T12:31:49+02:00",
+            "polygon": [
+              240,
+              269,
+              425,
+              275,
+              424,
+              289,
+              239,
+              284
+            ],
+            "spans": [
+              {
+                "offset": 326,
+                "length": 25
+              }
+            ]
+          },
+          {
+            "content": "TSE Signatur:",
+            "polygon": [
+              138,
+              299,
+              240,
+              304,
+              239,
+              319,
+              137,
+              314
+            ],
+            "spans": [
+              {
+                "offset": 352,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "517801",
+            "polygon": [
+              336,
+              289,
+              381,
+              290,
+              380,
+              303,
+              336,
+              302
+            ],
+            "spans": [
+              {
+                "offset": 366,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "4244D9B1C71316AF51290FEC",
+            "polygon": [
+              263,
+              303,
+              441,
+              306,
+              440,
+              320,
+              263,
+              318
+            ],
+            "spans": [
+              {
+                "offset": 373,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "content": "57EFCCAAA001B61042778F847F6618A5E2045644",
+            "polygon": [
+              137,
+              317,
+              441,
+              322,
+              441,
+              337,
+              137,
+              333
+            ],
+            "spans": [
+              {
+                "offset": 398,
+                "length": 40
+              }
+            ]
+          },
+          {
+            "content": "97EA9ED7326DC9ED8D7A888DD9A7659C31B58517",
+            "polygon": [
+              137,
+              334,
+              441,
+              338,
+              441,
+              353,
+              136,
+              350
+            ],
+            "spans": [
+              {
+                "offset": 439,
+                "length": 40
+              }
+            ]
+          },
+          {
+            "content": "Cadbury DP",
+            "polygon": [
+              481,
+              338,
+              599,
+              337,
+              599,
+              357,
+              481,
+              357
+            ],
+            "spans": [
+              {
+                "offset": 480,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "E04F234FECB92F82DC8COC515E00DE9D2DOAB1C7",
+            "polygon": [
+              136,
+              352,
+              442,
+              355,
+              441,
+              370,
+              136,
+              367
+            ],
+            "spans": [
+              {
+                "offset": 491,
+                "length": 40
+              }
+            ]
+          },
+          {
+            "content": "BC1E9B54F244E9128ACEED52B84F6C320F6FD82B",
+            "polygon": [
+              136,
+              369,
+              442,
+              371,
+              442,
+              386,
+              136,
+              385
+            ],
+            "spans": [
+              {
+                "offset": 532,
+                "length": 40
+              }
+            ]
+          },
+          {
+            "content": "FOFBAE10",
+            "polygon": [
+              136,
+              386,
+              203,
+              387,
+              202,
+              402,
+              136,
+              401
+            ],
+            "spans": [
+              {
+                "offset": 573,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Bury",
+            "polygon": [
+              483,
+              386,
+              576,
+              385,
+              577,
+              437,
+              483,
+              437
+            ],
+            "spans": [
+              {
+                "offset": 582,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "RACCO",
+            "polygon": [
+              34,
+              394,
+              2,
+              394,
+              2,
+              386,
+              34,
+              386
+            ],
+            "spans": [
+              {
+                "offset": 587,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "S",
+            "polygon": [
+              4,
+              409,
+              19,
+              409,
+              20,
+              423,
+              4,
+              423
+            ],
+            "spans": [
+              {
+                "offset": 593,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "content": "POS S/N: 000000001750293852",
+            "polygon": [
+              135,
+              404,
+              347,
+              404,
+              347,
+              420,
+              135,
+              420
+            ],
+            "spans": [
+              {
+                "offset": 595,
+                "length": 27
+              }
+            ]
+          },
+          {
+            "content": "53R0721586",
+            "polygon": [
+              367,
+              404,
+              444,
+              404,
+              444,
+              419,
+              367,
+              419
+            ],
+            "spans": [
+              {
+                "offset": 623,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "Ihre PAYBACK Kartennr: XXXXXXXXXX1232",
+            "polygon": [
+              135,
+              439,
+              423,
+              438,
+              423,
+              454,
+              135,
+              455
+            ],
+            "spans": [
+              {
+                "offset": 634,
+                "length": 37
+              }
+            ]
+          },
+          {
+            "content": "AIR",
+            "polygon": [
+              488,
+              441,
+              599,
+              443,
+              599,
+              519,
+              487,
+              517
+            ],
+            "spans": [
+              {
+                "offset": 672,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "Punktestand vor Einkauf: 3277",
+            "polygon": [
+              135,
+              458,
+              362,
+              455,
+              363,
+              471,
+              135,
+              474
+            ],
+            "spans": [
+              {
+                "offset": 676,
+                "length": 29
+              }
+            ]
+          },
+          {
+            "content": "Dieser Punktestand entspricht: 32.77 EUR",
+            "polygon": [
+              134,
+              476,
+              447,
+              471,
+              447,
+              487,
+              135,
+              492
+            ],
+            "spans": [
+              {
+                "offset": 706,
+                "length": 40
+              }
+            ]
+          },
+          {
+            "content": "F\u00fcr diesen Einkauf erhalten Sie von GLOBUS",
+            "polygon": [
+              134,
+              494,
+              463,
+              488,
+              463,
+              505,
+              134,
+              511
+            ],
+            "spans": [
+              {
+                "offset": 747,
+                "length": 42
+              }
+            ]
+          },
+          {
+            "content": "PAYBACK Punkte auf punktef\u00e4hige Artikel",
+            "polygon": [
+              134,
+              512,
+              439,
+              506,
+              439,
+              523,
+              134,
+              529
+            ],
+            "spans": [
+              {
+                "offset": 790,
+                "length": 39
+              }
+            ]
+          },
+          {
+            "content": "19\u00b0P",
+            "polygon": [
+              417,
+              525,
+              449,
+              525,
+              449,
+              540,
+              417,
+              540
+            ],
+            "spans": [
+              {
+                "offset": 830,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "LK",
+            "polygon": [
+              493,
+              520,
+              599,
+              520,
+              599,
+              597,
+              493,
+              597
+            ],
+            "spans": [
+              {
+                "offset": 835,
+                "length": 2
+              }
+            ]
+          },
+          {
+            "content": "Basis-Punkte",
+            "polygon": [
+              133,
+              533,
+              233,
+              528,
+              233,
+              544,
+              134,
+              548
+            ],
+            "spans": [
+              {
+                "offset": 838,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "Datum",
+            "polygon": [
+              133,
+              552,
+              177,
+              551,
+              177,
+              566,
+              134,
+              567
+            ],
+            "spans": [
+              {
+                "offset": 851,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "Zeit Filial Ka. Bed Bon",
+            "polygon": [
+              215,
+              545,
+              420,
+              543,
+              420,
+              559,
+              215,
+              562
+            ],
+            "spans": [
+              {
+                "offset": 857,
+                "length": 23
+              }
+            ]
+          },
+          {
+            "content": "16.08.24 12:31 1078 4 55 2038",
+            "polygon": [
+              133,
+              567,
+              420,
+              559,
+              421,
+              575,
+              134,
+              586
+            ],
+            "spans": [
+              {
+                "offset": 881,
+                "length": 29
+              }
+            ]
+          },
+          {
+            "content": "Cadbury",
+            "polygon": [
+              496,
+              632,
+              597,
+              632,
+              597,
+              668,
+              496,
+              668
+            ],
+            "spans": [
+              {
+                "offset": 911,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "660001078000040000203820240816123044",
+            "polygon": [
+              175,
+              650,
+              461,
+              640,
+              462,
+              656,
+              176,
+              668
+            ],
+            "spans": [
+              {
+                "offset": 919,
+                "length": 36
+              }
+            ]
+          },
+          {
+            "content": "bury",
+            "polygon": [
+              495,
+              698,
+              598,
+              698,
+              598,
+              728,
+              495,
+              728
+            ],
+            "spans": [
+              {
+                "offset": 956,
+                "length": 4
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 960
+          }
+        ]
+      }
+    ],
+    "styles": [
+      {
+        "confidence": 0.6,
+        "spans": [
+          {
+            "offset": 956,
+            "length": 4
+          }
+        ],
+        "isHandwritten": true
+      }
+    ],
+    "documents": [
+      {
+        "docType": "receipt.retailMeal",
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0,
+              0,
+              600,
+              0,
+              600,
+              800,
+              0,
+              800
+            ]
+          }
+        ],
+        "fields": {
+          "CountryRegion": {
+            "type": "countryRegion",
+            "valueCountryRegion": "DEU",
+            "confidence": 0.995
+          },
+          "MerchantName": {
+            "type": "string",
+            "valueString": "GLOBUS",
+            "content": "GLOBUS",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  416,
+                  489,
+                  464,
+                  488,
+                  464,
+                  505,
+                  416,
+                  505
+                ]
+              }
+            ],
+            "confidence": 0.677,
+            "spans": [
+              {
+                "offset": 783,
+                "length": 6
+              }
+            ]
+          },
+          "ReceiptType": {
+            "type": "string",
+            "valueString": "Supplies",
+            "confidence": 0.973
+          },
+          "TaxDetails": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 0.98,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "0,98",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          313,
+                          159,
+                          344,
+                          160,
+                          344,
+                          173,
+                          313,
+                          172
+                        ]
+                      }
+                    ],
+                    "confidence": 0.963,
+                    "spans": [
+                      {
+                        "offset": 123,
+                        "length": 4
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "2",
+                    "content": "2",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          156,
+                          152,
+                          164,
+                          152,
+                          164,
+                          166,
+                          156,
+                          165
+                        ]
+                      }
+                    ],
+                    "confidence": 0.964,
+                    "spans": [
+                      {
+                        "offset": 82,
+                        "length": 1
+                      }
+                    ]
+                  },
+                  "NetAmount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 13.97,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "13,97",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          248,
+                          157,
+                          287,
+                          158,
+                          287,
+                          172,
+                          248,
+                          170
+                        ]
+                      }
+                    ],
+                    "confidence": 0.964,
+                    "spans": [
+                      {
+                        "offset": 102,
+                        "length": 5
+                      }
+                    ]
+                  },
+                  "Rate": {
+                    "type": "number",
+                    "valueNumber": 0.07,
+                    "content": "7%",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          197,
+                          153,
+                          212,
+                          154,
+                          212,
+                          168,
+                          196,
+                          167
+                        ]
+                      }
+                    ],
+                    "confidence": 0.963,
+                    "spans": [
+                      {
+                        "offset": 86,
+                        "length": 2
+                      }
+                    ]
+                  }
+                },
+                "content": "2 = 7%\n13,97\n0,98\n14.95",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      156,
+                      151,
+                      409,
+                      161,
+                      408,
+                      177,
+                      155,
+                      167
+                    ]
+                  }
+                ],
+                "confidence": 0.967,
+                "spans": [
+                  {
+                    "offset": 82,
+                    "length": 6
+                  },
+                  {
+                    "offset": 102,
+                    "length": 5
+                  },
+                  {
+                    "offset": 123,
+                    "length": 4
+                  },
+                  {
+                    "offset": 134,
+                    "length": 5
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 4.15,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "4.15",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          313,
+                          175,
+                          345,
+                          175,
+                          345,
+                          189,
+                          313,
+                          188
+                        ]
+                      }
+                    ],
+                    "confidence": 0.95,
+                    "spans": [
+                      {
+                        "offset": 140,
+                        "length": 4
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "1",
+                    "content": "1",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          157,
+                          168,
+                          163,
+                          168,
+                          163,
+                          182,
+                          156,
+                          182
+                        ]
+                      }
+                    ],
+                    "confidence": 0.963,
+                    "spans": [
+                      {
+                        "offset": 115,
+                        "length": 1
+                      }
+                    ]
+                  },
+                  "NetAmount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 21.82,
+                      "currencyCode": "EUR"
+                    },
+                    "content": "21,82",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          247,
+                          173,
+                          287,
+                          174,
+                          286,
+                          188,
+                          247,
+                          186
+                        ]
+                      }
+                    ],
+                    "confidence": 0.963,
+                    "spans": [
+                      {
+                        "offset": 128,
+                        "length": 5
+                      }
+                    ]
+                  },
+                  "Rate": {
+                    "type": "number",
+                    "valueNumber": 0.19,
+                    "content": "19%",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          189,
+                          169,
+                          212,
+                          170,
+                          212,
+                          185,
+                          188,
+                          184
+                        ]
+                      }
+                    ],
+                    "confidence": 0.964,
+                    "spans": [
+                      {
+                        "offset": 119,
+                        "length": 3
+                      }
+                    ]
+                  }
+                },
+                "content": "1 = 19%\n21,82\n4.15\n25,97",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      157,
+                      167,
+                      409,
+                      177,
+                      408,
+                      193,
+                      156,
+                      183
+                    ]
+                  }
+                ],
+                "confidence": 0.961,
+                "spans": [
+                  {
+                    "offset": 115,
+                    "length": 7
+                  },
+                  {
+                    "offset": 128,
+                    "length": 5
+                  },
+                  {
+                    "offset": 140,
+                    "length": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "TransactionDate": {
+            "type": "date",
+            "valueDate": "2016-08-24",
+            "content": "2024-08-16T12:31:08+02:00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  240,
+                  254,
+                  424,
+                  258,
+                  424,
+                  273,
+                  239,
+                  268
+                ]
+              }
+            ],
+            "confidence": 0.982,
+            "spans": [
+              {
+                "offset": 279,
+                "length": 25
+              }
+            ]
+          },
+          "TransactionTime": {
+            "type": "time",
+            "valueTime": "12:31:00",
+            "content": "12:31",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  209,
+                  565,
+                  246,
+                  563,
+                  247,
+                  580,
+                  210,
+                  582
+                ]
+              }
+            ],
+            "confidence": 0.983,
+            "spans": [
+              {
+                "offset": 890,
+                "length": 5
+              }
+            ]
+          }
+        },
+        "confidence": 0.973,
+        "spans": [
+          {
+            "offset": 0,
+            "length": 960
+          }
+        ]
+      }
+    ],
+    "contentFormat": "text"
+  },
+  "confidence_score": 0.973,
+  "blob_name": "multi-capture/receipt_sample_3.png"
+}

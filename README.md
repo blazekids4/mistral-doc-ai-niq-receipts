@@ -883,7 +883,7 @@ AZURE_OPENAI_DEPLOYMENT=your-deployment-name
 
 ```powershell
 # Clone and navigate
-cd c:\Users\justinlyons\source\repos\mistral-doc-ai-niq-receipts\scripts
+cd c:\Users\justinlyons\source\repos\mistral-doc-ai-receipts\scripts
 
 # Configure environment
 cp .env.example .env
@@ -1399,4 +1399,3 @@ See main repository LICENSE file.
 
 **Last Updated**: October 29, 2025
 **Version**: 2.0
-**Maintainer**: NIQ Document AI Team
